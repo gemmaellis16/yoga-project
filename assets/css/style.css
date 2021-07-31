@@ -193,7 +193,7 @@ sourced from coffeehouse project
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 107px;
+    margin-bottom: 100px;
 }
 
 #map {
@@ -202,12 +202,35 @@ sourced from coffeehouse project
     border: none;
 }
 
+#timetable {
+    margin-top: 200px;
+    color: #fff;
+    background-color: rgba(250, 141, 16, 0.466);
+    max-width: 1000px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    column-fill: balance;
+    
+}
+
+#prices {
+    margin-top: 200px;
+    color: #fff;
+    background-color: rgba(250, 141, 16, 0.466);
+    max-width: 1000px;
+    position: fixed;
+    left: 10%;
+    padding: 30px;
+
+}
+
 footer {
 	background-color: rgba(235, 131, 46, 0.548);
 	padding: 1em;
 	text-align: center;
     width: 100%;
-    position: relative;
+    position: fixed;
     bottom: 0;
     right: 0;
 	z-index: 3;
