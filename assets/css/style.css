@@ -53,10 +53,137 @@ h2 {
     border-bottom: 1px solid #777;
 }
 
-#yoga-image{
-    height: 600px;
+#yoga-image {
+    height: 300px;
     width: 100%;
-    background: url("assets/css/images/yoga-image.jpeg") no-repeat center center; 
+    background-size: cover;
+    background: url("images/yoga-image.jpeg") no-repeat center center;
+    background-blend-mode: lighten;
 }
 
+.signup-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
 
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa; 
+    border-radius: 2px;
+    
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: rgb(128, 223, 128);
+    color: #fafafa;
+    display: block;
+    
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: rgb(128, 223, 128);
+}
+
+sourced from coffeehouse project
+
+#contact {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+	float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+	float: right;
+}
+
+.spacer {
+    clear: both;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+footer {
+	background-color: rgb(128, 223, 128);
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > span {
+	color: #777;
+}
+
+footer > a {
+	color: #555;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+	color: #555;
+}

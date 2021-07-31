@@ -114,6 +114,9 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Doesn't seem to link style.css to the index.html file (29/7/21) - found that it was in fact an error with google fonts link.
 * Doesn't seem to load image onto background of the homepage (29/7/21)
 
+### Note about Committs
+* IMPORTANT - Previous committs have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover my work and create a new workspace.
+
 ## Deployment 
 
 #### * Git hub pages
