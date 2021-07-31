@@ -54,11 +54,35 @@ h2 {
 }
 
 #yoga-image {
-    height: 300px;
+    height: 1400px;
     width: 100%;
     background-size: cover;
     background: url("images/yoga-image.jpeg") no-repeat center center;
     background-blend-mode: lighten;
+}
+
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+
+#cover-text {
+    font-size: 100%;
+    font-family: 'Robo';
+    letter-spacing: 6px;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 30px;
+    padding-left: 20px;
+
+    background-color: rgba(245, 94, 24, 0.582);
+
+    bottom: 120px;
+    left: 150px;
+
+    position: absolute;
+
 }
 
 .signup-form {
@@ -163,7 +187,7 @@ sourced from coffeehouse project
 }
 
 footer {
-	background-color: rgb(128, 223, 128);
+	background-color: rgba(235, 131, 46, 0.548);
 	padding: 1em;
 	text-align: center;
     width: 100%;
