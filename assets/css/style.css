@@ -18,11 +18,13 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #555;
+    
 }
 
 #logo {
     float: left;
     font-size: 280%;
+    padding-left: 20px;
 }
 
 #menu {
@@ -54,11 +56,25 @@ h2 {
 }
 
 #yoga-image {
-    height: 1400px;
+    height: 1500px;
     width: 100%;
-    background-size: cover;
+    background-size: relative;
     background: url("images/yoga-image.jpeg") no-repeat center center;
-    background-blend-mode: lighten;
+
+    
+}
+
+from love running project
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img {
+    width: 100%;
+    height: auto;
 }
 
 #cover-text, #cover-text h2 {
