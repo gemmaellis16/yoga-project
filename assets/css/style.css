@@ -54,8 +54,9 @@ h2 {
 }
 
 #yoga-image{
-    height: 700px;
+    height: 600px;
     width: 100%;
-    background: url("assets/css/images/yoga-image.jpeg"); 
+    background: url("assets/css/images/yoga-image.jpeg") no-repeat center center; 
 }
+
 
