@@ -64,7 +64,7 @@ h2 {
     
 }
 
-from love running project
+from love running project (gallery)
 #photo {
     clear: both;
     line-height: 0;
@@ -73,9 +73,11 @@ from love running project
 }
 
 #photo img {
-    width: 100%;
-    height: auto;
-}
+    height: 300px;
+    float: left;
+    width: 33.33%;
+    padding: 5px; 
+  }
 
 #cover-text, #cover-text h2 {
     color: #ffffff;
@@ -104,7 +106,7 @@ from love running project
 .signup-form {
     margin-top: 150px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(236, 151, 93, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
@@ -127,17 +129,31 @@ from love running project
     
 }
 
+.form-control {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa; 
+    border-radius: 2px;
+    
+}
+
 .text-input:hover {
     border-color: #f16c6b;
 }
 
+.form-control {
+    border-color: #f16c6b;
+}
 .join-button {
     border-radius: 2px;
     margin-top: 20px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(128, 223, 128);
+    background-color: rgb(238, 157, 143);
     color: #fafafa;
     display: block;
     
@@ -145,55 +161,34 @@ from love running project
 
 .join-button:hover {
     background-color: #fafafa;
-    color: rgb(128, 223, 128);
+    color: rgb(238, 157, 143);
 }
 
 sourced from coffeehouse project
 
 #contact {
-    margin-top: 150px;
-    color: #fff;
+    margin-top: 100px;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: absolute;
     left: 10%;
-    padding: 30px;
-}
-
-.contact-boxes-container {
-    width: 66%;
-    margin: 0 auto;
-}
-
-.contact-box-left {
-    width: 250px;
-    margin-top: -20px;
-	float: left;
+    padding: 50px;
 }
 
 .contact-box-right {
     width: 250px;
-    text-align: right;
-    margin-top: -20px;
+    text-align: center;
+    margin-top: 60px;
 	float: right;
 }
 
-.spacer {
-    clear: both;
-}
 
-.contact-box-center {
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-    text-align: center;
-}
 
 /* map */
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 107px;
 }
 
 #map {
@@ -203,26 +198,26 @@ sourced from coffeehouse project
 }
 
 #timetable {
-    margin-top: 200px;
+    margin-top: 150px;
     color: #fff;
     background-color: rgba(250, 141, 16, 0.466);
-    max-width: 1000px;
-    position: absolute;
+    max-width: 500px;
+    position: fixed;
     left: 10%;
     padding: 30px;
-    column-fill: balance;
     
 }
 
 #prices {
-    margin-top: 200px;
+    margin-top: 150px;
     color: #fff;
     background-color: rgba(250, 141, 16, 0.466);
-    max-width: 1000px;
+    max-width: 500px;
     position: fixed;
-    left: 10%;
-    padding: 30px;
-
+    right: 10%;
+    padding: 50px;
+    text-align: left;
+    
 }
 
 footer {
@@ -250,3 +245,36 @@ footer > a {
 footer > p {
 	color: #555;
 }
+
+from the resume project about section
+
+.logo {
+    background: url("images/tree-pose.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+-----background image for pages
+
+#back-image {
+    height: 500px;
+    width: 100%;
+    background-size: relative;
+    background: url("images/back-image.png") no-repeat center center;
