@@ -108,7 +108,7 @@ from love running project (gallery)
     color: #fff;
     background-color: rgba(236, 151, 93, 0.6);
     max-width: 400px;
-    position: absolute;
+    position: fixed;
     left: 10%;
     padding: 30px;
 }
@@ -119,7 +119,7 @@ from love running project (gallery)
 }
 
 .text-input {
-    background: transparent;
+    background-color: transparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
@@ -130,7 +130,6 @@ from love running project (gallery)
 }
 
 .form-control {
-    background: transparent;
     color: #fafafa;
     width: 100%;
     height: 25px;
@@ -164,6 +163,27 @@ from love running project (gallery)
     color: rgb(238, 157, 143);
 }
 
+#cover-text-one {
+        font-size: 100%;
+        font-family: 'Robo';
+        letter-spacing: 6px;
+    
+        width: 300px;
+        height: 300px;
+    
+        padding-top: 30px;
+        padding-left: 20px;
+    
+        background-color: rgba(235, 131, 46, 0.548);
+    
+        bottom: 50px;
+        right: 100px;
+    
+        position: absolute;
+    
+    }
+}
+
 sourced from coffeehouse project
 
 #contact {
@@ -184,17 +204,16 @@ sourced from coffeehouse project
 
 
 
-/* map */
-#map-wrapper {
-
-    height: 300px;
-    margin-bottom: 107px;
-}
+/* map from coffeehouse project*/
 
 #map {
-    height: 100%;
-    width: 100%;
-    border: none;
+    display: block;
+     height:100%; 
+     width:100%; 
+     position:fixed;
+     top:35px;
+     left:0;
+     z-index: 0;
 }
 
 #timetable {
@@ -247,13 +266,6 @@ footer > p {
 
 from the resume project about section
 
-.logo {
-    background: url("images/tree-pose.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
@@ -279,19 +291,13 @@ from the resume project about section
     background: url("images/back-image.png") no-repeat center center;
 }
   ---------about page sourced from https://www.w3schools.com/howto/howto_css_about_page.asp
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+ 
   
   .column {
-    float: center;
+    float: left;
     width: 33.3%;
     margin-bottom: 16px;
-    padding: 0 8px;
+    padding: 0 1px;
   }
   
   .card {
@@ -300,8 +306,8 @@ from the resume project about section
   }
   
   .about-section {
-    padding: 50px;
-    text-align: left;
+    padding: 100px;
+    text-align: center;
     background-color: rgba(235, 131, 46, 0.548);
     color: white;
   }
@@ -310,35 +316,8 @@ from the resume project about section
     padding: 0 16px;
   }
   
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
   .title {
     color: grey;
   }
   
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-  }
-  
-  .button:hover {
-    background-color: #555;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
 
-  }
