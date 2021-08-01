@@ -113,9 +113,10 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * On some internet browsers .......
 * Doesn't seem to link style.css to the index.html file (29/7/21) - found that it was in fact an error with google fonts link.
 * Doesn't seem to load image onto background of the homepage (29/7/21)
+* Gallery images are not sitting correctly on the page (01/08/21)
 
-### Note about Committs
-* IMPORTANT - Previous committs have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover my work and create a new workspace.
+### Note about Commits
+* IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover my work and create a new workspace.
 
 ## Deployment 
 
@@ -137,6 +138,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Bootstrap 4: Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
 * ....... was taken from the 'Whiskey project'
+* ....... was taken from the 'Coffeehouse project'
 * ....... was taken from the 'Love Runnig project'
 * ........ was taken from the 'Resume project'
 
@@ -145,8 +147,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 * Psychological properties of colours text in the Readme.md were found here
 
 ### Media 
-* Gallery images created by the developer and from
-* Main page image created by ..........
+* All images created by the developer
 
 ### Aknowledgments 
 * My mentor for feedback and support
