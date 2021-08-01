@@ -200,7 +200,7 @@ sourced from coffeehouse project
 #timetable {
     margin-top: 150px;
     color: #fff;
-    background-color: rgba(250, 141, 16, 0.466);
+    background-color: rgba(235, 131, 46, 0.548);
     max-width: 500px;
     position: fixed;
     left: 10%;
@@ -211,7 +211,7 @@ sourced from coffeehouse project
 #prices {
     margin-top: 150px;
     color: #fff;
-    background-color: rgba(250, 141, 16, 0.466);
+    background-color: rgba(235, 131, 46, 0.548);
     max-width: 500px;
     position: fixed;
     right: 10%;
@@ -222,13 +222,12 @@ sourced from coffeehouse project
 
 footer {
 	background-color: rgba(235, 131, 46, 0.548);
-	padding: 1em;
-	text-align: center;
-    width: 100%;
-    position: fixed;
+	position: fixed;
+    left: 0;
     bottom: 0;
-    right: 0;
-	z-index: 3;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 footer > span {
@@ -289,7 +288,7 @@ from the resume project about section
   }
   
   .column {
-    float: left;
+    float: center;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
@@ -302,8 +301,8 @@ from the resume project about section
   
   .about-section {
     padding: 50px;
-    text-align: center;
-    background-color: white;
+    text-align: left;
+    background-color: rgba(235, 131, 46, 0.548);
     color: white;
   }
   
@@ -341,4 +340,5 @@ from the resume project about section
     .column {
       width: 100%;
       display: block;
-    }
+
+  }
