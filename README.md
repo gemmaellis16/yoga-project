@@ -28,7 +28,8 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 ### Design
 
 #### * Colour Scheme
- * The main colours are 
+ * The main colours are peach (rgba(235, 131, 46, 0.548)) for the background colours.
+    
 
 #### * Typography
 * The XXXXX font is the main font used throughout the website with Sans Serif as the fallback font in case the font isn't imported correctly to the site. The xxxx font is an attractive font and used frequently in programming.
@@ -133,7 +134,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ## Credits
 
 ### Code
-* The full screen image came from.....
+* The full screen image came from my the developer
 
 * Bootstrap 4: Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
