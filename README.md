@@ -28,7 +28,7 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 ### Design
 
 #### * Colour Scheme
- * The main colours are peach (rgba(235, 131, 46, 0.548)) for the background colours.
+ * The main colour is peach (rgba(235, 131, 46, 0.548)) for the background colours.
     
 
 #### * Typography

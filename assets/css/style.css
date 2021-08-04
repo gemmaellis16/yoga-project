@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/!----------------------------sourced from Love Running project---------------------/
+/* homepage sourced from love running project*/
 
 header {
     margin: 0;
@@ -31,10 +31,11 @@ h2 {
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
+
 }
 
 #logo, #menu {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #menu li {
@@ -44,7 +45,7 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: #777;
 }
 
 #menu a:hover{
@@ -56,27 +57,27 @@ h2 {
 }
 
 #yoga-image {
-    height: 1500px;
+    height: 500px;
     width: 100%;
-    background-size: relative;
     background: url("images/yoga-image.jpeg") no-repeat center center;
-
-    
+    display: block;
+    margin-top: 100;
 }
 
-from love running project (gallery)
-#photo {
+/* sign-up from love running project*/(gallery)
+#gallery {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0px;
 }
 
-#photo img {
-    height: 150px;
+#gallery img {
+    height: 200px;
     float: left;
     width: 33.33%;
     padding: 5px; 
+    bottom: 100;
   }
 
 #cover-text, #cover-text h2 {
@@ -102,6 +103,29 @@ from love running project (gallery)
     position: absolute;
 
 }
+
+#cover-text-one {
+    font-size: 100%;
+    font-family: 'Robo';
+    letter-spacing: 3px;
+
+    width: 300px;
+    height: 300px;
+
+    padding-top: 30px;
+    padding-left: 20px;
+
+    background-color: rgba(245, 94, 24, 0.582);
+    bottom: 150px;
+    right: 100px;
+    position: absolute;
+
+}
+
+#cover-text-one, #cover-text-one h2 {
+    color: #ffffff;
+}
+/* sign-up from love running project*/
 
 .signup-form {
     color: #fff;
@@ -171,40 +195,19 @@ from love running project (gallery)
 }
 
 
-
-sourced from coffeehouse project
-
-#contact {
-    margin-top: 100px;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 50px;
-}
-
-.contact-box-right {
-    width: 250px;
-    text-align: center;
-    margin-top: 60px;
-	float: right;
-}
-
-
-
 /* map from coffeehouse project*/
 #map-wrapper {
 
     height: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 #map {
     height: 100%;
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
-
+/* timetable and prices box sourced from */
 #timetable {
     margin-top: 50px;
     color: #fff;
@@ -229,7 +232,7 @@ sourced from coffeehouse project
     margin-bottom: 100px;
     
 }
-
+/* footer sourced from whiskey project*/
 footer {
 	background-color: rgba(235, 131, 46, 0.548);
 	position: fixed;
@@ -255,7 +258,7 @@ footer > p {
 	color: #555;
 }
 
-from the resume project about section
+/* about section from resume project*/
 
 .name {
     font-family: "Exo", sans-serif;
@@ -273,9 +276,7 @@ from the resume project about section
     margin-bottom: 90px;
     color: #fff;
 }
-
-  ---------about page sourced from https://www.w3schools.com/howto/howto_css_about_page.asp
- 
+/* about page sourced from https://www.w3schools.com/howto/howto_css_about_page.asp*/
   
   .column {
     float: left;
@@ -284,7 +285,6 @@ from the resume project about section
     padding: 0 1px;
     
 }
-  
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 8px;
