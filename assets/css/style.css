@@ -55,6 +55,35 @@ h2 {
 .active{
     border-bottom: 1px solid #777;
 }
+/* Navbar from whiskey project*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 
 #yoga-image {
     height: 500px;
@@ -91,7 +120,7 @@ h2 {
     max-width: 100%;
     height: 300px;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     background-color: rgba(245, 94, 24, 0.582);
     bottom: 100px;
     float: center;
@@ -104,7 +133,7 @@ h2 {
     max-width: 100%;
     height: 300px;
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: 10px;
     background-color: rgba(245, 94, 24, 0.582);
     bottom: 100px;
     position: absolute;
@@ -114,6 +143,15 @@ h2 {
 #cover-text-one, #cover-text-one h2 {
     color: #ffffff;
 }
+/* benefits*/
+
+#benefits {
+    padding-left: 10px;
+    position: relative;
+}
+
+
+
 /* sign-up from love running project*/
 
 .signup-form {
@@ -342,4 +380,46 @@ footer > p {
     bottom: 150px;
     left: 100px;
    }
+}
+
+@media(min-width: 992px) { 
+#cover-text, #cover-text h2 {
+    color: #ffffff;
+}
+}
+@media(min-width: 992px) { 
+#cover-text {
+    font-size: 100%;
+    font-family: 'Robo';
+    letter-spacing: 6px;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgba(245, 94, 24, 0.582);
+    bottom: 100px;
+    left: 100px;
+    position: absolute;
+}
+}
+
+@media(min-width: 992px) { 
+#cover-text-one {
+    font-size: 100%;
+    font-family: 'Robo';
+    letter-spacing: 3px;
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgba(245, 94, 24, 0.582);
+    bottom: 100px;
+    right: 100px;
+    position: absolute;
+    
+}
+@media(min-width: 992px) { 
+#cover-text-one, #cover-text-one h2 {
+    color: #ffffff;
+}
 }
