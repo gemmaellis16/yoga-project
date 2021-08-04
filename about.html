@@ -13,39 +13,40 @@
 
 <body>
       <!-- Header sourced from the Love Running project-->
-    <header>
+      <header>
         <a href="index.html">
             <h2 id="logo">Conwy Valley Yoga</h2>
         </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
-                <li>
-                    <a href="#">Classes</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-light navbar-expand-sm bg-light">
+    <a href="index.html" class="navbar-brand">
+        <h2 id="logo"></h2></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Gallery</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Classes</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
+            <li class="nav-item dropdown"></li>
+        </ul>
+</header>
     
     <!-- About section from https://www.w3schools.com/howto/howto_css_about_page.asp-->
-    <h2 style="text-align:left"></h2>
-    <div class="about-section">
-            <h2>Gemma Ellis</h2>
-            <p class="title">Teacher</p>
-        <p>A British Wheel of Yoga Teacher. I have been practicing yoga for over 15 years. My practice has helped me grow stronger and more flexible, both on and off the mat. With a background in sports, fitness and education, I want students to have the confidence to bring balance in their lives. 
+    
+          
+            <div class="media-body">
+              <div class="about-section">
+               <h2>Gemma Ellis</h2>
+              <div class="media-one">
+                <img src="assets/css/images/tree-pose.png" class="square" height=200 width=200>
+                </div>
+                <p class="title">Teacher</p>
+              <p>A British Wheel of Yoga Teacher. I have been practicing yoga for over 15 years. My practice has helped me grow stronger and more flexible, both on and off the mat. With a background in sports, fitness and education, I want students to have the confidence to bring balance in their lives. 
             My aim is to create a comfortable environment for students to develop a connection with their bodies.  It is a non competitive class with the focus on them as individuals. I also want students to strengthen muscles, improve flexibility and overall have an enhanced feeling of well-being.
-            
-        </p>
-      </div>
+            </p>
+          </div>
       
         <div class="column">
             <div class="card">
@@ -82,13 +83,14 @@
               <div class="container">
                 <h2>Tips  <i class="fas fa-magic"></i></h2>
                   <ul>
-                    <li>What to wear: Please wear close-fitting and comfortable attire.</li>
-                    <li>What to bring: Bring a bottle of water and mat. Please bring a blanket for the relaxation.</li>
-                    <li>What to expect: Classes will start with breath awareness. Then progress onto traditional yoga asanas, finishing with a relaxation.</li>
-                    <li>Food and drink: Please avoid eating a heavy meal 1 hour before class.</li>
-                    <li>Keep up to date: Please check the class page for class time tables.</li>
-                    <li>Please complete a Student Reg Form before your first class.</li>
+                    <li><b>What to wear:</b> Please wear close-fitting and comfortable attire.</li>
+                    <li><b>What to bring:</b> Bring a bottle of water and mat. Please bring a blanket for the relaxation.</li>
+                    <li><b>What to expect:</b> Classes will start with breath awareness. Then progress onto traditional yoga asanas, finishing with a relaxation.</li>
+                    <li><b>Food and drink:</b> Please avoid eating a heavy meal 1 hour before class.</li>
+                    <li><b>Keep up to date:</b> Please check the class page for class time tables.</li>
+                    <li><b>Complete:</b> Please complete a Student Reg Form before your first class.</li>
                   </ul>
+
         <p class="inline-block">
             Download Student Reg Form here
             <a href="#" target="_blank" class="form-pdf">
@@ -96,6 +98,7 @@
                 <span class="sr-only">Download link</span>
             </a>
         </p>
+        <!-- Download info sourced from the Resume project--- !>
                 </div>
               </div>
             </div>
@@ -112,11 +115,7 @@
         <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Find us on Instagram (link opens in a new tab)">Instagram</a>
         <p>Copyright © Conwy Valley Yoga 2021</p>
     <!-- /Footer -->
-        </footer>
-
-     
-        
-       <!-- Download info sourced from the Resume project-- 
+    </footer>
     </div>
     </body>
     </html>

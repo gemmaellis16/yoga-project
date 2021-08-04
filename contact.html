@@ -12,28 +12,25 @@
 
 <body>
       <!-- Header sourced from the Love Running project-->
-    <header>
+      <header>
         <a href="index.html">
             <h2 id="logo">Conwy Valley Yoga</h2>
         </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-                <li>
-                    <a href="#">Gallery</a>
-                </li>
-                <li>
-                    <a href="#">Classes</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar navbar-light navbar-expand-sm bg-light">
+    <a href="index.html" class="navbar-brand">
+        <h2 id="logo"></h2></a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item mr-2"><a class="nav-link" href="">About</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Gallery</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Classes</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="">Contact</a></li>
+            <li class="nav-item dropdown"></li>
+        </ul>
+</header>
 <!-- /.header -->
    
 <!--Form sourced from Love Runnig project  -->
@@ -50,31 +47,40 @@
    <label for="email">Message</label>
    <textarea class="form-control text-input" id="message" rows="3" required></textarea>
 
-   <input class="join-button" type="submit" value="Namaste!">
+   <input class="join-button" type="submit" value="Submit">
    </form>
    
     </section> 
 
 <!--Section - Contact sourced from coffeehouse project -->
-<section id="contact">
-    <div id="cover-text-one"></div>
-		<div class="contact-box-right">
-			<h3>Get in touch</h3>
-            <div>
-                <span class="bold">Phone: </span>
+<div class="column-one">
+    <div class="card-one">
+      <div class="container">
+        <h2>Get in Touch  <i class="far fa-address-card"></i></h2>
+          <ul>
+            <li><span class="bold">Phone: </span>
                 <span>012 345 678 910</span>
-                </div>
+                </div></li>
                 <div>
-                <span class="bold">Email: </span>
+            <li><span class="bold">Email: </span>
                 <span>email@cvyoga.com</span>
-                </div>
+                </div></li>
+            </ul>
+                
             </div>
-            <div class="contact-box-right">
-                <h3>Address</h3>
-                <p>Conwy Valley Yoga,<br>Betws y Coed,<br>Wales</p>
-            </div>
-        </div>
-      </section>
+            <div class="column-one">
+                <div class="card-one">
+                  <div class="container">
+                    <h2>Address  <i class="far fa-address-book"></i></h2>
+                      <ul>
+                        <li><span class="bold">Address: </span>
+                            <span>Betws y Coed,</span>
+                            <span>North Wales,</span>
+                            </div></li>
+                            <div>
+                        </ul>
+                            
+                        </div>
 			
     <!--Section - Contact-->
     
