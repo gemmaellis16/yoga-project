@@ -32,7 +32,7 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
     
 
 #### * Typography
-* The XXXXX font is the main font used throughout the website with Sans Serif as the fallback font in case the font isn't imported correctly to the site. The xxxx font is an attractive font and used frequently in programming.
+* The Roboto font is the main font used throughout the website with Exo as the fallback font in case the font isn't imported correctly to the site. The Roboto font is used frequently in programming.
 
 #### * Imagery
 * The large background yoga image is designed to be calming and attractive to capture the users attention to read further.
