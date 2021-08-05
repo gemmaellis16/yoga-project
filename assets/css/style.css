@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/* homepage sourced from love running project*/
-
 header {
     margin: 0;
     padding: 0;
@@ -25,6 +23,7 @@ h2 {
     float: left;
     font-size: 280%;
     padding-left: 20px;
+    margin-top: 10px;
 }
 
 #menu {
@@ -55,6 +54,7 @@ h2 {
 .active{
     border-bottom: 1px solid #777;
 }
+
 /* Navbar from whiskey project*/
 
 .navalert-container {
@@ -69,16 +69,18 @@ h2 {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .25);
     border: 0;
-}
+    background-color: rgba(0, 0, 0, .25);
+    }
 
 .navbar .navbar-toggler {
     border: 0;
+    position:absolute;
 }
 
 .navbar .navbar-brand {
     font-weight: bold;
+    
 }
 
 .navbar .navbar-nav a {
@@ -90,10 +92,10 @@ h2 {
     width: 100%;
     background: url("images/yoga-image.jpeg") no-repeat center center;
     display: block;
-    margin-top: 100;
+    
 }
 
-/* sign-up from love running project*/(gallery)
+/* sign-up from love running project*/
 #gallery {
     clear: both;
     line-height: 0;
@@ -106,7 +108,7 @@ h2 {
     float: left;
     width: 33.33%;
     padding: 5px; 
-    bottom: 100;
+    bottom: 100px;
   }
 
 #cover-text, #cover-text h2 {
@@ -123,7 +125,7 @@ h2 {
     padding-left: 10px;
     background-color: rgba(245, 94, 24, 0.582);
     bottom: 100px;
-    float: center;
+    
 }
 
 #cover-text-one {
@@ -137,7 +139,6 @@ h2 {
     background-color: rgba(245, 94, 24, 0.582);
     bottom: 100px;
     position: absolute;
-    float: center;
 }
 
 #cover-text-one, #cover-text-one h2 {
@@ -169,7 +170,7 @@ h2 {
 .signup-form > h2 {
     color: #fafafa;
     margin-bottom: 5px;
-    display: center;
+    display: block;
     
 }
 
@@ -252,7 +253,6 @@ h2 {
     color: #fff;
     background-color: rgba(235, 131, 46, 0.548);
     max-width: 100%;
-    
     padding: 10px;
     text-align: left;
     display: fixed;
@@ -306,7 +306,7 @@ footer > p {
 /* about page sourced from https://www.w3schools.com/howto/howto_css_about_page.asp*/
   
   .column {
-    float: center;
+
     max-width: 100%;
     margin-bottom: 20px;
     padding: 0 10px;
@@ -341,7 +341,6 @@ footer > p {
     max-width: 100%;
     margin-bottom: 20px;
     padding: 0 5px;
-    float: center;
 }
   
   .card-one {
@@ -363,7 +362,7 @@ footer > p {
     float: left;
     width: 33.33%;
     padding: 5px; 
-    bottom: 100;
+    bottom: 100px;
   }
 }
 
@@ -386,7 +385,7 @@ footer > p {
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
-}
+
 @media(min-width: 992px) { 
 #cover-text {
     font-size: 100%;
@@ -423,3 +422,4 @@ footer > p {
     color: #ffffff;
 }
 }
+
