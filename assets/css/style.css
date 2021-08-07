@@ -9,6 +9,14 @@ header {
 body {
     font-family: 'Roboto';
     color: #777;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
 }
 
 h2 {
@@ -29,6 +37,8 @@ h2 {
     font-size: 100%;
     list-style-type: none;
     letter-spacing: 4px;
+    justify-content: flex-end;
+    width: 100%;    
 
 }
 
@@ -37,7 +47,7 @@ h2 {
 }
 
 #menu li {
-    
+    padding: 0 15px;
 }
 
 #menu a {
@@ -78,7 +88,6 @@ h2 {
 
 .navbar .navbar-toggler {
     border: 0;
-    position:absolute;
 }
 
 .navbar .navbar-brand {
@@ -88,7 +97,7 @@ h2 {
     letter-spacing: 4px;
     color: #555;
     float: left;
-    font-size: 280%;
+    font-size: unset;
     padding-left: 20px;
     margin-top: 10px;
     
@@ -99,11 +108,11 @@ h2 {
 }
 
 #yoga-image {
-    height: 500px;
-    width: 100%;
-    background: url("images/yoga-image.jpeg") no-repeat center center;
-    display: block;
-    
+height: 100vh;
+width: 100%;
+background: url(images/yoga-image.jpeg) no-repeat center center;
+display: block;
+background-position: 50% 75%;
 }
 
 
@@ -274,9 +283,9 @@ h2 {
 /* footer sourced from whiskey project*/
 footer {
 	background-color: rgba(235, 131, 46, 0.548);
-	position: fixed;
+	/* position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 0; */
     width: 100%;
     color: white;
     text-align: center;
@@ -370,7 +379,7 @@ footer > p {
 }
 
 
-@media(min-width: 992px) { 
+@media (max-width: 576px) { 
 #cover-text {
     font-size: 100%;
     font-family: 'Robo';
@@ -385,47 +394,24 @@ footer > p {
    }
 }
 
-@media(min-width: 992px) { 
-#cover-text, #cover-text h2 {
-    color: #ffffff;
-}
+
 
 @media(min-width: 992px) { 
-#cover-text {
-    font-size: 100%;
-    font-family: 'Robo';
-    letter-spacing: 6px;
-    width: 300px;
-    height: 300px;
-    padding-top: 30px;
-    padding-left: 30px;
-    background-color: rgba(245, 94, 24, 0.582);
-    bottom: 100px;
-    left: 100px;
-    position: absolute;
-}
+    #cover-text-one {
+        font-size: 100%;
+        font-family: 'Robo';
+        letter-spacing: 3px;
+        width: 300px;
+        height: 300px;
+        padding-top: 30px;
+        padding-left: 30px;
+        background-color: rgba(245, 94, 24, 0.582);
+        bottom: 100px;
+        right: 100px;
+        position: absolute;
+    }
 }
 
-@media(min-width: 992px) { 
-#cover-text-one {
-    font-size: 100%;
-    font-family: 'Robo';
-    letter-spacing: 3px;
-    width: 300px;
-    height: 300px;
-    padding-top: 30px;
-    padding-left: 30px;
-    background-color: rgba(245, 94, 24, 0.582);
-    bottom: 100px;
-    right: 100px;
-    position: absolute;
-    
-}
-@media(min-width: 992px) { 
-#cover-text-one, #cover-text-one h2 {
-    color: #ffffff;
-}
-}
 
 @media screen and (max-width: 800px){
     #photo{
@@ -434,7 +420,14 @@ footer > p {
 }
 
 @media screen and (max-width: 943px){
-#photo{
-    column-count: 3;
+    #photo {
+        column-count: 3;
+    }
 }
+
+@media (max-width: 576px) {
+    #yoga-image {
+        background-position: 50% 15%;
+        background-size: cover;
+    }
 }

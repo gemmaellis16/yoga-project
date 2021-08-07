@@ -194,7 +194,7 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 ### Code
 * The full screen image came from my the developer
 
-* Bootstrap v4.5: Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
+* [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
 * ....... was taken from the [Whiskey project]()
 * ....... was taken from the [Coffeehouse project]()
