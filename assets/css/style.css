@@ -29,7 +29,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 350px;
     padding-left: 20px;
     margin-top: 10px;
 }
@@ -129,8 +129,9 @@ background-position: 50% 75%;
     float: left;
     width: 33.33%;
     padding: 5px; 
-    
-  }
+}
+
+
 
 #cover-text, #cover-text h2 {
     color: #ffffff;
@@ -162,7 +163,7 @@ background-position: 50% 75%;
     background-color: rgba(245, 94, 24, 0.582);
     bottom: 100px;
     position: absolute;
-    left: 50px;
+
 }
 
 #cover-text-one, #cover-text-one h2 {
@@ -234,7 +235,7 @@ background-position: 50% 75%;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(238, 157, 143);
+    background-color: rgba(236, 151, 93, 0.6);
     color: #fafafa;
     display: block;
     
@@ -263,29 +264,41 @@ background-position: 50% 75%;
 #timetable {
     margin-top: 50px;
     color: #555;
-    background-color: rgba(235, 131, 46, 0.548);
+    background-color:rgba(236, 151, 93, 0.6);
     max-width: 100%;
     position: static;
     padding: 10px;
     display: fixed;
     text-align: left;
+    box-sizing: border-box;
     
 }
 
 #prices {
     margin-top: 50px;
     color: #555;
-    background-color: rgba(235, 131, 46, 0.548);
+    background-color: rgba(236, 151, 93, 0.6);
     max-width: 100%;
     padding: 10px;
     text-align: left;
     display: fixed;
     margin-bottom: 100px;
+
+    
+}
+
+#description {
+    margin-top: 50px;
+    color: #555;
+    max-width: 100%;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 100px;
     
 }
 /* footer sourced from whiskey project*/
 footer {
-	background-color: rgba(235, 131, 46, 0.548);
+	background-color: rgba(236, 151, 93, 0.6);
 	/* position: fixed;
     left: 0;
     bottom: 0; */
@@ -324,7 +337,6 @@ footer > p {
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
 }
 /* about page sourced from https://www.w3schools.com/howto/howto_css_about_page.asp*/
   
@@ -350,7 +362,7 @@ footer > p {
   .about-section {
     width: 100%;
     display: block;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
     background-color: rgba(236, 151, 93, 0.6);
     color: #555;
@@ -391,20 +403,21 @@ footer > p {
 @media (max-width: 576px) { 
 #cover-text {
     height: 150px;
-    position: relative;
     max-width: 100%;
     right: 0px;
+    top: 580px;
    }
 }
 
 
 @media (max-width: 576px) { 
 #cover-text-one {
-    height: 300px;
-    position: relative;
+    height: 240px;
     max-width: 100%;
     top: 100px;
-    position: absolute;
+    right: 0;
+    left: 0;
+    
     }
 }
 
@@ -422,8 +435,29 @@ footer > p {
 }
 
 @media (max-width: 576px) {
+    #gallery img {
+        height: 100px;
+        width: 50%;
+        padding: 10px;
+        display: initial;
+    }
+}
+
+@media (max-width: 576px) {
     #yoga-image {
         background-position: 50% 15%;
         background-size: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    #sunset-image {
+        display: initial;
+    }
+}
+
+@media screen and (max-width: 943px){
+    #sunset-image {
+        display: hidden;
     }
 }
