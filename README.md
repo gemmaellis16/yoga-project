@@ -2,7 +2,7 @@
 
 View the live project [here]()
 
-This is the main marketing page for the Conwy Valley Yoga website. It has been designed to be easy to navigate for potential yoga students, give information on yoga and the classes at the studio and to be accessible on mobile, tablet, laptop and desktop.
+Welcome to Conwy Valley Yoga website. This yoga studio is located in the heart of the Conwy Valley in the beautiful Snowdonia National Park. On this site I hope you will be able to easily navigate the information about the studio and teacher and also able to access it on mobile, tablet and desktop.
 
 ## User Experience (UX)
 
@@ -12,7 +12,7 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 
  1. As a first time visitor, I want to understand the main purpose of the site and learn about the yoga studio.
  1. As a first time visitor, I want to be able to navigate throughout the site to find content.
- 1. As a first time visitor, I want to look at testimonials to understand what yoga students think of the studio and teacher and see if they are trusted and also want to locate their social media accounts for more information. 
+ 1. As a first time visitor, I want to look at testimonials to understand what yoga students think of the studio and teacher and see if they are trusted and also want to locate their social media accounts for more information (this will just be the main social media accounts for privacy reasons).
  1. As a first time visitor, I want to know what yoga is and it's benefits.
  1. As a first time visitor, I want to know the location of the studio.
  1. As a first time visitor, I want to know the price of the class.
@@ -32,7 +32,8 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 
 #### * Colour Scheme
 
- * The main colour is peach (rgba(235, 131, 46, 0.548)) for the background, footer, tables and text boxes.
+ * The main colour is a pink/peach colour (rgba(235, 131, 46, 0.548)) for the background, footer is rgba(236, 151, 93, 0.6), tables and text boxes are rgba(245, 94, 24, 0.582).
+ The idea is that the colours compliment the main image on the homepage to give the user a feeling of warmth and a relaxed feel typically like you would feel in a yoga class.
     
 
 #### * Typography
@@ -61,7 +62,7 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 
 ### * Language Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [CSS](https://en.wikipedia.org/wiki/CSS)
 
 ### * Framework, Libraries & Programmes Used 
 
@@ -71,13 +72,13 @@ This is the main marketing page for the Conwy Valley Yoga website. It has been d
 1. [Hover.CSS](https://ianlunn.github.io/Hover/)
     * Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 
-1. [Google Fonts] (https://fonts.google.com/)
+1. [Google Fonts](https://fonts.google.com/)
     * Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 
-1. [Font Awesome] (https://fontawesome.com/)
-    * Font Awesome was used on the homepage and about page in the website to add icons for aesthetic and UX purposes.
+1. [Font Awesome](https://fontawesome.com/)
+    * Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 
-1. [Git] (https://git-scm.com/) 
+1. [Git](https://git-scm.com/) 
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
 1. [Github](https://github.com/)
@@ -97,31 +98,73 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the studio.
 
-    1. Upon entering the site users are automatically greeted with a readible navigation bar to get to the page of thier choice. Even when they are on a specific page they can press the 'Home' button to return to the main page.
-    1. On the contact us page after a form response is submitted, the page refreshes and the user sees 'Thank you, your form has been submitted'.
+    1. Upon entering the site users are automatically greeted with a readible navigation bar to get to the page of thier choice. Even when they are on a specific page they can press the 'Conwy Valley Yoga' button to return to the main page.
+    1. On the contact us page after a form response is submitted, the page refreshes and the information dissappears (could link to an actual email account with a Thank you message).
     1. On the about page I want to clearly locate the 'New student registration form' to fill it out and bring with me to the first session. 
 
 1. As a first time visitor, I am curious to know more about the owner/studio
 
     1. On the homepage users can scroll down and see student testimonials and be clear that the studio is a friendly environment with a great teacher.
     1. Clearly labelled 'About' page on navigation bar
-    1. The 'About' page contains a photo of the teacher in her studio and short paragraph about her experience.  
+    1. The 'About' page contains a photo of the teacher and short paragraph about her experience.  
 
-1. As a first time visitor, I want to view the studio and student/teachers gallery to view the environment so I can decide if it's the class I'd like to participate in 
+1. As a first time visitor, I want to view the studio and student/teachers gallery to view the environment so I can decide if it's the class I'd like to participate in. 
 
-    1. In the navigation bar there is a clearly labelled 'Gallery' page.
+    1. In the navigation bar there is a clearly labelled 'Gallery' page with images of inside the studio, with students and outside of the studio. 
 
 * Returning Visitor Goals
 
 1. As a returning visitor, I want to find the best way to get into contact with the studio with any questions I may have. 
 
     1. The navigation bar clearly highlights the 'Contact page' 
-    1. Here, they can fill out the form on the page
-    1. There is also the direct phone number or email of the studio
-    1. The footer contains links to Facebook, Twitter and Instagram.
+    1. Here, they can fill out the form on the page (but I have not linked it to anything as this out of the scope of the MS1 project)
+    1. There is also the direct phone number or email of the studio (fictional).
+    1. The footer contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
 
 1. As a returning visitor, I want to find out the membership options
     1. In the classes page 'prices' are clearly labelled for the visitor to view.
+
+### Features
+
+#### Existing Features
+
+##### Navigation
+For the navigation bar I have used Boostrap to create a responsive navbar as well as the hamburger icon for mobile devices to be more user-friendly. 
+
+##### Main Image
+The main image is of the teacher in the studio doing quite an easy pose - I did not want to put a difficult pose in as this may put off any beginners or unconfident students.
+
+##### Cover Text
+The main idea to put cover text over the image was to grab the user attention immediately - one box is to get them to book a session straight away or to have that in thier minds immediately and the second box is to explain the definition of yoga so that a beginner understands the purpose.
+
+##### Benefits
+This idea was taken from the Love Running project - as its simple and eye catching for the user - with short explanations of what the benefits of yoga are to a beginner or even to remind the experienced yoga students. It is in three columns (taken from Bootstrap) to appear neat and tidy on the page with easily identifiable Font awesome icons to attract the user. 
+
+##### Testimonials
+I also used  the grid from bootstrap and as also some icons to make the section more visually appealing with images from my own collection and different names for the people in the images (I have consent of these people).
+
+##### About Section
+I used an example layout from https://www.w3schools.com/howto/howto_css_about_page.asp/ to create the about section to introduce the user to the teacher. With the same image layout that was used in the testimonials section for consistency over the pages. 
+In addition I added two downloadable links on this page, one of a sample relaxation script which had audio and the second of a student registration form that would be required upon visiting the studio for the first time. Again I added fontawesome icons to the headers to be more appealing.
+
+##### Gallery
+I wanted three columns and three rows of images so it would be appealing to the eye on desktop view and then down to two columns in mobile view so that images didn' appear stretched or pixlated. I did originally put in the wireframes that I wanted one column in the mobile view but this wouldn't appear balanced in my opinion. I also added an extra image to appear in mobile view so that there would be 10 images (5 in each column) to appear balanced (balance is at the heart of yoga so I wanted the website to appear balanced as much as possible throughout).
+
+##### Classes
+This is the most simple page of them all - with three simple tables to look at the class timetable, simple descriptions of the classes and then the price options. It is important to have different price options as this may attract more students. 
+
+##### Contact
+At the top of the page I placed the form so that it would catch the attention of the users if they had any questions for the teacher. They then have to scroll down for the contact details and the map of the location. 
+
+##### Features to be implemented
+
+* When submitting the form, the information should be sent to the yoga studio email account.
+* Chat bot that can assist them.
+* Interactive map for the location with a link to google maps.
+* Include information on how their data will be used (GDPR-Law).
+* Yoga videos for those that can not attend class. 
+* Sign in page for members to book onto a class by pressing a button in the Classes page by hovering over the particular class. 
+
 
 ### Further Testing
 
@@ -192,7 +235,7 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 ## Credits
 
 ### Code
-* The full screen image came from my the developer
+* The full screen image came from the developer
 
 * [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
@@ -202,14 +245,13 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 * ........ was taken from the [Resume project]()
 
 ### Content
-* Content was written by the developer
+* Content was written by the developer - this is the content I created on my yoga flyer while studying to be a yoga teacher in 2016. 
 
 ### Media 
-* All images created by the developer
+* All images created by the developer - they are photos from a yoga studio I did part of my yoga teacher training in Spain. So the studio does not exist in the Conwy Valley.
 
 ### Aknowledgments 
-* My mentor for feedback and support
-* Tutors at Code Institute for their support
+* Tutors at Code Institute for their support espeically Sean he really helped when I was feeling that I was unable to grasp the styling issues. 
 
 
 
