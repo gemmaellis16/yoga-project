@@ -1,8 +1,8 @@
-# Conwy Valley Yoga Website
+# Gemma Ellis Yoga Website
 
 View the live project [here]()
 
-Welcome to Conwy Valley Yoga website. This yoga studio is located in the heart of the Conwy Valley in the beautiful Snowdonia National Park. On this site I hope you will be able to easily navigate the information about the studio and teacher and also able to access it on mobile, tablet and desktop.
+Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of the Conwy Valley in the beautiful Snowdonia National Park. On this site I hope you will be able to easily navigate the information about the studio and teacher and also able to access it on mobile, tablet and desktop.
 
 ## User Experience (UX)
 
@@ -144,7 +144,10 @@ This idea was taken from the Love Running project - as its simple and eye catchi
 I also used  the grid from bootstrap and as also some icons to make the section more visually appealing with images from my own collection and different names for the people in the images (I have consent of these people).
 
 ##### About Section
-I used an example layout from https://www.w3schools.com/howto/howto_css_about_page.asp/ to create the about section to introduce the user to the teacher. With the same image layout that was used in the testimonials section for consistency over the pages. 
+I used an example layout from https://www.w3schools.com/howto/howto_css_about_page.asp/ to create the about section to introduce the user to the teacher. With the same image layout that was used in the testimonials section for consistency over the pages.
+
+I added an information/etiquette/tips section because as a new student to yoga they may feel uncomfortable entering a studio without any prior knowledeg of what to bring and of what to expect ect so this may help those that are unconfident accessing the studio alone. 
+
 In addition I added two downloadable links on this page, one of a sample relaxation script which had audio and the second of a student registration form that would be required upon visiting the studio for the first time. Again I added fontawesome icons to the headers to be more appealing.
 
 ##### Gallery
@@ -235,7 +238,7 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 ## Credits
 
 ### Code
-* The full screen image came from the developer
+* The full screen image came from https://unsplash.com/photos/UvWx67Ivqe0 
 
 * [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
@@ -248,10 +251,11 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 * Content was written by the developer - this is the content I created on my yoga flyer while studying to be a yoga teacher in 2016. 
 
 ### Media 
-* All images created by the developer - they are photos from a yoga studio I did part of my yoga teacher training in Spain. So the studio does not exist in the Conwy Valley.
+* All Gallery images created by the developer - they are photos from a yoga studio I did part of my yoga teacher training in Spain. So the studio does not exist in the Conwy Valley.
+But as noted previously the main image is sourced from https://unsplash.com/photos/UvWx67Ivqe0 .
 
 ### Aknowledgments 
-* Tutors at Code Institute for their support espeically Sean he really helped when I was feeling that I was unable to grasp the styling issues. 
+* Tutors at Code Institute for their support espeically Sean he really helped when I was feeling that I was unable to grasp all the styling issues. 
 
 
 
