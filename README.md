@@ -9,41 +9,42 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ## **Table of Contents**
 
-    * User Experience (UX)
-        * User Stories
-        * Design
-            * Colour Scheme
-            * Typography
-            * Imagery
-        * Wireframes
-    * Technologies Used
-        * Languages Used
-        * Frameworks, Libraries and Programmes used
-    * Testing
-        * Testing User Stories from User Experience (UX)
-    * Existing Features
-        * Navigation
-        * Main Image
-        * Cover Text
-        * Benefits
-        * Testimonials
-        * About Section
-        * Gallery
-        * Classes
-        * Contact
-        * Features to be implemented
-    * Further Testing
-        * Known Bugs
-        * Note about Commits
-    * Deployment
-        * Github Pages
-        * Forking Github Repository
-        * Making a Local Clone
-    * Credits
-        * Code
-        * Content
-        * Media
-        * Acknowledgments
+* [User Experience (UX)](#user-experience)
+    * [User Stories](#user-stories)
+* [Design](#design)
+    * [Colour Scheme](#color-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+* [Wireframes](#wireframes)
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#language-used)
+    * [Frameworks, Libraries and Programmes used](#frameworks,-libraries-and-programmes-used)
+* [Testing](#testing)
+* [Testing User Stories from User Experience](#testing-user-stories-from-user- experience)
+    * [Existing Features](#existing-features)
+    * [Navigation](#navigation)
+    * [Main Image](#main-image)
+    * [Cover Text](#cover-text)
+    * [Benefits](#benefits)
+    * [Testimonials](#testimonials)
+    * [About Section](#about-section)
+    * [Gallery](#gallery)
+    * [Classes](#classes)
+    * [Contact](#contact)
+    * [Features to be implemented](#features-to-be-implemented)
+* [Further Testing](#further-testing)
+    * [Navigation](#navigation)
+    * [Known Bugs](#known-bugs)
+    * [Note about Commits](#note-about-commits)
+* [Deployment](#deployment)
+    * [Github Pages](#github-pages)
+    * [Forking Github Repository](#forking-github-repository)
+    * [Making a Local Clone](#making-a-local-clone)
+* [Credits](#credits)
+    * [Code](#code)
+    * [Content](#content)
+    * [Media](#media)
+    * [Acknowledgments](#acknowledgments)
 
 
 ## **User Experience (UX)**
@@ -78,6 +79,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
  1. As a frequent visitor, I want to check the timetable for updated times, days and classes.
 
+[Back to top]()
 
 ### **Design**
 
@@ -95,6 +97,8 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 * The large background yoga image is designed to be calming and dreamy to give the users the idea that when they attend the class they will feel relaxed and ultimately want to browse the website further to book a class.
 
+[Back to top]()
+
 ### * **Wireframes**
 
 * Desktop wireframe - [view](wireframes/yoga-desktop.pdf)
@@ -103,12 +107,13 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 * Mobile wireframe - [view](wireframes/yoga-mobile.pdf)
 
+[Back to top]()
 
 ### **Technologies Used**
 
 ### **Language Used**
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
 
 * [CSS](https://en.wikipedia.org/wiki/CSS)
 
@@ -135,6 +140,8 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 1. [Balsamiq](https://balsamiq.com/)
     * Balsamiq was used to create the wireframes during the design process.
 
+[Back to top]()
+
 ### **Testing**
 
 The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -143,7 +150,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results]()
 
-#### **Testing User Stories from User Experience (UX)**
+#### **Testing User Stories from User Experience**
 
 * First Time Visitor Goals
 
@@ -182,6 +189,8 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 1. As a returning visitor, I want to find out the membership options
 
     1. In the classes page 'prices' are clearly labelled for the visitor to view.
+
+[Back to top]()
 
 ## **Features**
 
@@ -231,10 +240,12 @@ This is the most simple page of them all - with three simple tables to look at t
 
 At the top of the page I placed the form so that it would catch the attention of the users if they had any questions for the teacher. They then have to scroll down for the contact details and the map of the location. 
 
+[Back to top]()
+
 ### **Features to be implemented**
 
 * When submitting the form, the information should be sent to the yoga studio email account.
-* Chat bot that can assist them.
+* Chat bot that can assist the user.
 * Interactive map for the location with a link to google maps.
 * Include information on how their data will be used (GDPR-Law).
 * Yoga videos for those that can not attend class.  
@@ -250,10 +261,31 @@ At the top of the page I placed the form so that it would catch the attention of
 
 * Friends were asked to review the site and documentation to point out any bugs/user experience.
 
+[Back to top]()
+
+### * **Navigation bar**
+
+* Idea
+I wanted to ensure that the navigation bar was fixed at the top of the page and when clicked on, the navigation links would take the user to the page of their choice. For simple and attractive purposes the navigation bar would then convert to a hamburger icon with a dropdown menu on mobile devices.
+
+* Implementation
+I implemented the navigation bar using Bootstrap, which ensured an effective overall structure and lay out to the navbar. CSS was used to overwrite the default settings and made the navbar in line with the overall webite. I also used Bootstrap to implement the hamburger sign for mobile devices.
+
+* Test
+To test the navigation bar, I clicked all the links to make sure it worked properly. I have also opened the website in various browers (safari, google chrome, mozilla firefox) to make sure it worked on all browsers and devices. On mobile the navigation transformed into the hamburger sign with a dropdown menu.
+
+* Result
+The navigation bar appears how I would have expected it on all browsers and devices. However on the index page (main page) while on mobile device the dropdown does not appear as it is as it's blurred by the text-cover box
+
+* Verdict
+The test has passed all the criteria and works like planned.
+
 * Doesn't seem to link style.css to the index.html file (29/7/21) - found that it was in fact an error with google fonts link.
 * Doesn't seem to load image onto background of the homepage (29/7/21) 
 * Doesn't seem to load the image correctly on the homepage with lots of the image cut out (05/08/21)
 * Gallery images are not sitting correctly on the page (01/08/21) (05/08/21)
+
+[Back to top]()
 
 ### **Known Bugs**
 
@@ -264,6 +296,8 @@ At the top of the page I placed the form so that it would catch the attention of
 ### **Note about Commits**
 
 * IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover my work and create a new workspace.
+
+[Back to top]()
 
 ## **Deployment** 
 
@@ -278,6 +312,8 @@ The project was deployed to Github pages using the following steps..
     * Under "Source", click the dropdown called "None" and select "Master Branch".
     * The page will automatically refresh.
     * Scroll back down through the page to locate the now published site [link](https://github.com/) in the "GitHub Pages" section.
+
+[Back to top]()
 
 #### * **Forking Github Repository**
 
@@ -310,6 +346,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
+[Back to top]()
 
 ## **Credits**
 
@@ -327,6 +364,8 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 
 * ........ was taken from the [Resume project]()
 
+[Back to top]()
+
 ### **Content**
 
 * Content was written by the developer - this is the content I created on my yoga flyer while studying to be a yoga teacher in 2016. 
@@ -336,10 +375,11 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 * All Gallery images created by the developer - they are photos from a yoga studio I attended as part of my yoga teacher training in Spain. So the studio does not exist in North Wales.
 But as noted previously the main image is sourced from https://unsplash.com/photos/UvWx67Ivqe0 .
 
+
 ### **Aknowledgments** 
 
 * Tutors at Code Institute for their support espeically Sean he really helped when I was feeling that I was unable to grasp all the styling issues.
 
-
+[Back to top]()
 
 
