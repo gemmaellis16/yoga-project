@@ -133,10 +133,6 @@ background-size: cover;
     padding: 5px; 
 }
 
-#sunset-image {
-    display: hidden;
-}
-
 #cover-text, #cover-text h2 {
     color: #ffffff;
 }
@@ -258,6 +254,7 @@ background-size: cover;
 
 
 /* map from coffeehouse project*/
+
 #map-wrapper {
 
     height: 300px;
@@ -269,7 +266,9 @@ background-size: cover;
     width: 100%;
     margin-bottom: 10px;
 }
+
 /* timetable and prices box sourced from */
+
 #timetable {
     margin-top: 10px;
     color: #555;
@@ -335,7 +334,7 @@ footer > p {
 /* about section from resume project*/
 
 .name {
-    font-family: "Roboto", "Exo"
+    font-family: "Roboto", "Exo";
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
@@ -449,13 +448,6 @@ footer > p {
         background-size: cover;
     }
 }
-
-@media (max-width: 576px) {
-    #sunset-image {
-        display: initial;
-    }
-}
-
 
 @media screen and (min-width: 943px){
 .column-one {
