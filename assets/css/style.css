@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 header {
     margin: 0;
     padding: 0;
@@ -26,6 +27,7 @@ h2 {
     color: #555;
     
 }
+/* Navbar parts aare from Love Running*/
 
 #logo {
     float: left;
@@ -64,7 +66,9 @@ h2 {
     border-bottom: 1px solid #777;
 }
 
-/* Navbar from whiskey project*/
+/* Navbar parts are from the whiskey project*/
+
+/* Navbar parts are from the whiskey project*/
 
 .navalert-container {
     position: absolute;
@@ -84,7 +88,6 @@ h2 {
 
 .navbar #menu {
     float: right;
-    margin-right: 30px;
 }
 
 .navbar .navbar-toggler {
@@ -107,6 +110,8 @@ h2 {
 .navbar .navbar-nav a {
     font-weight: bold;
 }
+
+/* Image, gallery and cover-text styling is from the Love Running project*/
 
 #yoga-image {
 height: 100vh;
@@ -166,15 +171,19 @@ background-size: cover;
     position: absolute;
 
 }
+#hero-image-one {
+    margin-top: 20px;
+}
 
 #cover-text-one, #cover-text-one h2 {
     color: #ffffff;
 }
+/* Image, gallery and cover-text styling is from the Love Running project*/
 
 .form-section {
     color: #000;
 }
-/* benefits*/
+/* benefits are from the Love Running*/
 
 #benefits {
     padding-left: 10px;
@@ -183,7 +192,7 @@ background-size: cover;
 
 
 
-/* sign-up from love running project*/
+/* sign-up form from love running project*/
 
 .signup-form {
     color: #555;
@@ -251,7 +260,7 @@ background-size: cover;
     background-color: #fafafa;
     color: rgb(238, 157, 143);
 }
-
+/* form styling is from the Love Running project*/
 
 /* map from coffeehouse project*/
 
@@ -267,7 +276,7 @@ background-size: cover;
     margin-bottom: 10px;
 }
 
-/* timetable and prices box sourced from */
+/* timetable, prices and description box sourced from W3schools website*/
 
 #timetable {
     margin-top: 10px;
@@ -290,10 +299,7 @@ background-size: cover;
     padding: 50px;
     text-align: left;
     display: fixed;
-    margin-bottom: 10px;
-    
-
-    
+    margin-bottom: 10px;   
 }
 
 #description {
@@ -302,9 +308,10 @@ background-size: cover;
     max-width: 100%;
     padding: 50px;
     text-align: left;
-    display: fixed;
-    
+    display: fixed;  
 }
+/* timetable, prices and description box sourced from W3schools website*/
+
 /* footer sourced from whiskey project*/
 footer {
 	background-color: rgba(245, 94, 24, 0.582);
@@ -441,12 +448,25 @@ footer > p {
     
     }
 }
-
+@media(min-width: 992px) {
+    #gallery img {
+        height: 300px;
+    }
+}
 @media (max-width: 576px) {
     #yoga-image {
         background-position: 50% 15%;
         background-size: cover;
     }
+
+    .navbar .navbar-collapse {
+        position: absolute;
+        top:60px;
+        left:0;
+        width: 100%;
+        background: #222;
+        z-index: 100;
+      }
 }
 
 @media screen and (min-width: 943px){

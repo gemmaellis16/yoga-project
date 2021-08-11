@@ -1,5 +1,5 @@
 # **Gemma Ellis Yoga**
-
+![Gemma Ellis](assets/css/images/responsive-image.png)
 
 View the live project [here]()
 
@@ -10,6 +10,8 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 ## **Table of Contents**
 
 * [User Experience (UX)](#user-experience)
+    * [User Goals](#user-goals)
+    * [Owner Goals](#owner-goals)
     * [User Stories](#user-stories)
 * [Design](#design)
     * [Colour Scheme](#color-scheme)
@@ -20,7 +22,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
     * [Languages Used](#language-used)
     * [Frameworks, Libraries and Programmes used](#frameworks,-libraries-and-programmes-used)
 * [Testing](#testing)
-* [Testing User Stories from User Experience](#testing-user-stories-from-user- experience)
+    * [Testing User Stories from User Experience](#testing-user-stories-from-user-experience)
     * [Existing Features](#existing-features)
     * [Navigation](#navigation)
     * [Main Image](#main-image)
@@ -48,6 +50,23 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 
 ## **User Experience (UX)**
+
+### **User Goals**
+
+1. The website should have valuable information on yoga and the studio.
+1. The website should be easy to use on mobile, tablet and desktop.
+1. It should be visually appealing with images and colours.
+1. It should have an about page detailing yoga etiquette and the yoga teachers.
+1. The website should have testimonials about the teacher and studio.
+1. It should have contact details that are easy to navigate. 
+1. It should have booking option on the main page to capture the users attention.
+1. It should have a form to contact the studio directly.
+
+### **Owner Goals**
+
+ 1. Advertise the studio.
+ 1. Give information on yoga (and the teacher)
+ 1. Increase bookings and interest in the studio.
 
 
 ### **User Stories**
@@ -79,6 +98,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
  1. As a frequent visitor, I want to check the timetable for updated times, days and classes.
 
+
 [Back to top](#table-of-contents)
 
 ### **Design**
@@ -101,11 +121,11 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ### * **Wireframes**
 
-* Desktop wireframe - [view](wireframes/yoga-desktop.pdf)
+* Desktop wireframe - [view](wireframes/yoga-desktop.bmpr)
 
-* Tablet wireframe - [view](wireframes/yoga-tablet.pdf)
+* Tablet wireframe - [view](wireframes/yoga-tablet.bmpr)
 
-* Mobile wireframe - [view](wireframes/yoga-mobile.pdf)
+* Mobile wireframe - [view](wireframes/yoga-mobile.bmpr)
 
 [Back to top](#table-of-contents)
 
@@ -129,7 +149,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
     * Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 
 1. [Font Awesome](https://fontawesome.com/)
-    * Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+    * Font Awesome was used throughout the website to add icons to appeal to the eye.
 
 1. [Git](https://git-scm.com/) 
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -138,13 +158,13 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
     * GitHub is used to store the projects code after being pushed from Git.
 
 1. [Balsamiq](https://balsamiq.com/)
-    * Balsamiq was used to create the wireframes during the design process.
+    * Balsamiq was used to create the wireframes during design ideas.
 
 [Back to top](#framework-libraries-&-programmes-used)
 
 ### **Testing**
 
-The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no errors in the code. 
 
 * [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results]()
 
@@ -156,39 +176,39 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the studio.
 
-    1. When entering the site users will see a readible navigation bar to get to the page of their choice. Even when they are on a specific page they can press the 'Gemma Ellis Yoga' logo to return to the main page.
+    - When entering the site users will see a readible navigation bar to get to the page of their choice. Even when they are on a specific page they can press the 'Gemma Ellis Yoga' logo to return to the main page.
 
-    1. On the contact us page after a form response is submitted, the page refreshes and the information dissappears (could link to an actual email account with a Thank you message).
+    - On the contact us page after a form response is submitted, the page refreshes and the information dissappears (could link to an actual email account with a Thank you message).
 
-    1. On the about page I want to clearly locate the 'New student registration form' to fill it out and bring with me to the first session. 
+    - On the about page I want to clearly locate the 'New student registration form' to fill it out and bring with me to the first session. 
 
 1. As a first time visitor, I am curious to know more about the owner/studio
 
-    1. On the homepage users can scroll down and see student testimonials and be clear that the studio is a friendly environment with a good teacher.
+    - On the homepage users can scroll down and see student testimonials and be clear that the studio is a friendly environment with a good teacher.
 
-    1. Clearly labelled 'About' page on navigation bar.
+    - Clearly labelled 'About' page on navigation bar.
 
-    1. The 'About' page contains a photo of the teacher and short paragraph about her experience.  
+    - The 'About' page contains a photo of the teacher and short paragraph about her experience.  
 
 1. As a first time visitor, I want to view the studio and student/teachers gallery to view the environment so I can decide if it's the class I'd like to participate in. 
 
-    1. In the navigation bar there is a clearly labelled 'Gallery' page with images of inside the studio, with students and outside of the studio. 
+    - In the navigation bar there is a clearly labelled 'Gallery' page with images of inside the studio, with students and outside of the studio. 
 
 * Returning Visitor Goals
 
 1. As a returning visitor, I want to find the best way to get into contact with the studio with any questions I may have. 
 
-    1. The navigation bar clearly highlights the 'Contact page'.
+    - The navigation bar clearly highlights the 'Contact page'.
 
-    1. Here, they can fill out the form on the page (but I have not linked it to anything as this out of the scope of the MS1 project).
+    - Here, they can fill out the form on the page (but I have not linked it to anything as this out of the scope of the MS1 project).
 
-    1. There is also the direct phone number or email of the studio (fictional).
+    - There is also the direct phone number or email of the studio (fictional).
 
-    1. The footer contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
+    - The footer contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
 
 1. As a returning visitor, I want to find out the membership options
 
-    1. In the classes page 'prices' are clearly labelled for the visitor to view.
+    - In the classes page 'prices' are clearly labelled for the visitor to view.
 
 [Back to top](#table-of-contents)
 
@@ -206,7 +226,7 @@ For the navigation bar I have used Boostrap to create a responsive navbar as wel
 
 ### **Main Image**
 
-The main image is of a yoga pose on the beach during sunset from the website Splash. It creates a warm, calming feeling. The yoga pose is a simple pose that all abilities can perfrom so wouldn't put off any beginners or unconfident students.
+The main image is of a yoga pose on the beach during sunset from the website unsplash. It creates a warm, calming feeling. The yoga pose is a simple pose that all abilities can perfrom so wouldn't put off any beginners or unconfident students.
 
 ### **Cover Text**
 
@@ -222,7 +242,7 @@ I also used  the grid from bootstrap and as also some icons to make the section 
 
 ### **About Section**
 
-I used an example layout from https://www.w3schools.com/howto/howto_css_about_page.asp/ to create the about section to introduce the user to the teacher. With the same image layout that was used in the testimonials section for consistency over the pages.
+I used an example layout from W3 website to create the about section to introduce the user to the teacher. With the same image layout that was used in the testimonials section for consistency over the pages.
 
 I added an information/etiquette/tips section because as a new student to yoga they may feel uncomfortable entering a studio without any prior knowledeg of what to bring and of what to expect ect so this may help those that are unconfident accessing the studio alone. 
 
@@ -259,11 +279,11 @@ At the top of the page I placed the form so that it would catch the attention of
 
 * A large amount of testing was conducted to ensure that all pages were linking correctly.
 
-* Friends were asked to review the site and documentation to point out any bugs/user experience.
+* Friends were asked to review the site and content to point out any bugs/user experience.
 
 [Back to top](#table-of-contents)
 
-### * **Navigation bar**
+#### * **[Navigation bar](screenshots/navbar-image.png)**
 
 * Idea
 I wanted to ensure that the navigation bar was working accordingly at the top of the page and when clicked on, the navigation links would take the user to the page of their choice. For simple and attractive purposes the navigation bar would then convert to a hamburger icon with a dropdown menu on mobile devices.
@@ -280,15 +300,15 @@ The navigation bar appears how I would have expected it on all browsers and devi
 * Verdict
 The test has passed all the criteria and works like planned.
 
-### Modal
-* Plan
+### [Modal](screenshots/modal-image.png)
+* Idea
 I wanted to use a modal that would allow the user to book on the main page (a place were it's clearly visible and easy to get to for a returning user).
 
 * Utilisation
 I used Bootstrap to include the modals on the website and this was positioned to the left of the box as the text was also aligned left. I used the same colours as I did on my contact us form to keep consistency throughout the pages. 
 
 * Test
-Initially the modal worked succesfully however the next day it didn't work. So every effort was used to check the problem.
+Initially the modal worked succesfully however the next day it didn't work. So every effort was used to check the problem. I realised I had deleted a bootstrap link (because I had )
 
 * Result
 The modal opened up when the Book now button was clicked and appeared on screen.
@@ -296,9 +316,9 @@ The modal opened up when the Book now button was clicked and appeared on screen.
 * Verdict
 The modal works as planned.
 
-### Audio
+### [Audio](screenshots/audio-image.png)
 
-* Plan
+* Idea
 I wanted to use audio as a taster for users of what to expect when in the relaxation during a class. This would allow the user to determine if they would like to hear more by coming to a session.  
 
 * Utilisation
@@ -313,9 +333,9 @@ The audio opened up when the Download button was clicked and appeared on screen.
 * Verdict
 The audio works as planned.
 
-### Student Registration Form
+### [Student Registration Form](screenshots/student-form.png)
 
-* Plan
+* Idea
 I wanted to enable the users to download and fill in the student registration form (if they would prefer) before the session so there is no rush at the beginning of the session. This is important for the teacher to have as it gives the teacher an idea of any health issues so that the teacher would be able to adapt the sessions/poses for the individual. 
 
 * Utilisation
@@ -330,9 +350,9 @@ The audio opened up when the Download button was clicked and appeared on screen.
 * Verdict
 The audio works as planned.
 
-### Contact Form
+### [Contact Form](screenshots/form-image)
 
-* Plan
+* Idea
 I want to include a contact form so that the user can contact the studio/teacher with any queries they have (even to book through this too). On the form they can enter their name, email address and write a message. I also ensured they had to fill in the fields before submitting the button. 
 
 * Utilization
@@ -342,10 +362,10 @@ To create this, I made a contact page and placed the form at the top of the page
 When I tested the form, I realised that nothing opened up and there was nothing to indicate to the user that the form was submitted. This meant it was not user friendly, so if I had more experience I would have liked to include JS to implement this.
 
 * Result
-After implementing the modal the form worked as planned and provided the correct feedback to the user.
+The form works but after filling it in all the content dissappears so the user is left if the message was sent.
 
 * Verdict
-The form worked but without the modal.
+The form worked but without feedback it is not user friendly.
 
 
 
@@ -359,7 +379,7 @@ The form worked but without the modal.
 
 ### **Note about Commits**
 
-* IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover my work and create a new workspace.
+* IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover some of my work and create a new workspace.
 
 [Back to top](#table-of-contents)
 
@@ -367,48 +387,42 @@ The form worked but without the modal.
 
 #### * **Git hub pages**
 
-The project was deployed to Github pages using the following steps..
+The project was deployed to Github pages using the following steps
 
-    * Log in to [GitHub](https://github.com/) and locate the GitHub Repository
-    * At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    * Alternatively Click [Here] (https://github.com/) for a GIF demonstrating the process starting from Step 2.
-    * Scroll down the Settings page until you locate the "GitHub Pages" Section.
-    * Under "Source", click the dropdown called "None" and select "Master Branch".
-    * The page will automatically refresh.
+    1. Log in to [GitHub](https://github.com/) and locate the GitHub Repository.
+    * At the top of the Repository (not top of page), locate the "Settings" button on the menu.
+    * Scroll down to the settings page and locate the "GitHub Pages" section.
+    * Under the "Source" button, click the dropdown "None" and choose "Master Branch".
+    * The page will refresh.
     * Scroll back down through the page to locate the now published site [link](https://github.com/) in the "GitHub Pages" section.
 
 [Back to top](#table-of-contents)
 
 #### * **Forking Github Repository**
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original document on our account so that we can view or make changes without it affecting the original repository. To do this we are required to:
 
-    1 Log in to GitHub and locate the [GitHub Repository] ()
-    1 At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-    1 You should now have a copy of the original repository in your GitHub account.
+    1 Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    1 At the top of the Repository (not top of page) just above the "Settings" button on the menu, press the "Fork" button.
+    1 Then you will have a copy of the original repository in your GitHub account.
 
 
-#### * **Making a Local Clone**
+#### * **Making a Clone**
 
-    1. Log in to GitHub and locate the [GitHub Repository] ()
+    1. Log in to GitHub and find the [GitHub Repository](https://github.com/)
     1. Under the repository name, click "Clone or download".
     1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
     1. Open Git Bash
-    1. Change the current working directory to the location where you want the cloned directory to be made.
+    1. Change the working directory to the place where you want the clone to be made to.
     1. Type git clone, and then paste the URL you copied in Step 3.
 
-    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    $ git clone https://github.com/gemmaellis16/yoga-project
 
     1. Press Enter. Your local clone will be created.
 
-    $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+    $ git clone https://github.com/gemmaellis16/yoga-project
 
-Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) for more information.
 
 [Back to top](#table-of-contents)
 
@@ -416,33 +430,45 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 
 ### **Code**
 
-* The full screen image came from https://unsplash.com/photos/UvWx67Ivqe0 
+* The full screen image came from [unsplash](https://unsplash.com/photos/UvWx67Ivqe00 
 
 * [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
-* ....... was taken from the [Whiskey project]()
+* The testimonials idea was taken from the quotes section in the[Whiskey project](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/)
 
-* ....... was taken from the [Coffeehouse project]()
+* The footer idea was taken from the [Coffeehouse project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/d6dd40a51a9543e78b59924c739abff5/2f123befba874366823427fa9f2a2262/2?activate_block_id=block-v1%3ACodeInstitute%2BCSE101%2B2020_Q2%2Btype%40vertical%2Bblock%40da616ef1efe748bd84d36aa804ffead9)
 
-* ....... was taken from the [Love Runnig project]()
+* The main image code was taken from the [Love Runnig project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
+* The cover text was sourced from the [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/83c6c94d55f44c79a3646810d80ce7a3/)
+* The benefits section was sourced and edited from the [Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/6eb8cfc87bfd434a87861a844e00b655/)
+* The gallery idea was sourced from the [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/0b88201f299f4e059c23977b8e25f27a/)
+* The contact us form was sourced from the [Love Running project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/be0e510a3aca4bccb6e0bba4cf7cf06b/d533998456514d97a88ce691537e00a6/)
 
-* ........ was taken from the [Resume project]()
+* The download now idea on the about page was taken from the [Resume project](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/e1da3f354d874bbb8dbc996d658a66e8/)
+
+* I used the table content code from [W3schools](https://www.w3schools.com/howto/howto_css_about_page.asp/) for my about page. 
+* I used the table structure on my classes pages from [W3schools](https://www.w3schools.com/html/html_tables.asp)
+
+* I used a modal template for the book here button on my homepage from [Bootstrap](https://getbootstrap.com/docs/5.1/components/modal/)
+
+* I used [Bootstrap](https://getbootstrap.com/docs/4.5/components/navbar/) template or the navigation bar.
 
 [Back to top](#table-of-contents)
 
 ### **Content**
 
-* Content was written by the developer - this is the content I created on my yoga flyer while studying to be a yoga teacher in 2016. 
+* Content was written by me, the developer - this is the content I created on my yoga flyer while studying to be a yoga teacher in 2016. 
 
 ### **Media** 
 
-* All Gallery images created by the developer - they are photos from a yoga studio I attended as part of my yoga teacher training in Spain. So the studio does not exist in North Wales.
-But as noted previously the main image is sourced from https://unsplash.com/photos/UvWx67Ivqe0 .
+* All gallery images created by the developer - they are photos from a yoga studio I attended as part of my yoga teacher training in Spain. So the studio does not exist in North Wales (like I have stated but merely a fictional studio in Betws y Coed).
+* But as noted previously the main image is sourced from [unsplash](https://unsplash.com/photos/UvWx67Ivqe0).
+* The map on the contact page was sourced from [Google](https://www.maps.ie/create-google-map/)
 
 
 ### **Aknowledgments** 
 
-* Tutors at Code Institute for their support espeically Sean he really helped when I was feeling that I was unable to grasp all the styling issues.
+* Tutors at Code Institute for their support espeically Sean and Igor they really helped when I was feeling that I was unable to grasp all the styling issues.
 
 [Back to top](#table-of-contents)
 
