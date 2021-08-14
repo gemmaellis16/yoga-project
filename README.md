@@ -468,7 +468,7 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 
 ### **Aknowledgments** 
 
-* Tutors at Code Institute for their support espeically Sean and Igor they really helped when I was feeling that I was unable to grasp all the styling issues.
+* Tutors at Code Institute for their support especially Sean and Igor they really helped when I was feeling that I was unable to grasp all the styling issues.
 
 [Back to top](#table-of-contents)
 

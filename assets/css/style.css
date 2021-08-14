@@ -188,6 +188,7 @@ background-size: cover;
 #benefits {
     padding-left: 10px;
     position: relative;
+    top: 20px;
 }
 
 
@@ -305,10 +306,10 @@ background-size: cover;
 #description {
     margin-top: 10px;
     color: #555;
-    max-width: 100%;
-    padding: 50px;
+    width: 120px;
+    padding: 10px;
     text-align: left;
-    display: fixed;  
+    margin-bottom: 10px;
 }
 /* timetable, prices and description box sourced from W3schools website*/
 
