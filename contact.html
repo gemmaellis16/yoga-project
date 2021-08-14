@@ -1,4 +1,6 @@
-<head>
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -37,7 +39,7 @@
             </nav>
         </header>
 <!-- /.header -->
-   
+   <main>
 <!--Form sourced from Love Running project  -->
     <section class="form-section">
         <form class="signup-form" method="GET" action="/contact.html">
@@ -48,7 +50,7 @@
    <label for="email">Email Address</label>
    <input id="email" type="email" class="text-input" name="email_address" required> 
    <label for="message">Message</label>
-   <textarea name="message"id="message" type="text" class="text-input" required></textarea> 
+   <input id="message" type="text" class="text-input" required>
    <input class="join-button" type="submit" value="Submit">
    </form>
    
@@ -60,13 +62,10 @@
     <div class="card-one">
       <div class="container">
         <h2>Get in Touch  <i class="far fa-address-card"></i></h2>
-            <li><span class="bold">Phone: </span>
-                <span>012 345 678 910</span>
-            </li>
-    
-            <li><span class="bold">Email: </span>
-                <span>email@cvyoga.com</span>
-            </li>
+        <br><span class="bold">Phone: </span>
+            <span>012 345 678 910</span></br
+            <br><span class="bold">Email: </span>
+            <span>email@cvyoga.com</span></br>
         </div>                        
     </div>        
 </div>  
@@ -74,23 +73,21 @@
                 <div class="card-one">
                   <div class="container">
                     <h2>Address  <i class="far fa-address-book"></i></h2>
-                        <li><span class="bold">Address: </span>
+                        <span class="bold">Address: </span>
                             <span>Betws y Coed,</span>
                             <span>North Wales</span>
-                        </li>
                     </div>
                 <div>
-                      
+            </div>         
     </div>                        
 </div>
 			
     <!--Section - Contact-->
     
     <!--Map sourced from https://www.maps.ie/create-google-map/ -->
-    <section id="map-wrapper">
-      <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Betws%20y%20Coed+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Easy radius map</a>
-      </div>
-    </section>
+    <div id="map-wrapper">
+        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Betws%20y%20Coed+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.maps.ie/draw-radius-circle-map/">Easy radius map</a>
+    </div>
     <!--map-->
 </main>
     <!--Footer sourced from coffeehouse project -->
