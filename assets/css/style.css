@@ -267,14 +267,17 @@ background-size: cover;
 
 #map-wrapper {
 
-    height: 300px;
+    height: 400px;
     margin-bottom: 107px;
+    width: 100%;
+    display: block;
 }
 
 #map {
-    height: 500px;
+    height: 400px;
     width: 100%;
     border: none;
+    align-items: center;
 }
 
 /* timetable, prices and table box sourced from W3schools website*/
@@ -286,7 +289,7 @@ background-size: cover;
     max-width: 100%;
     position: static;
     padding: 50px;
-    display: fixed;
+    display: table;
     text-align: left;
     box-sizing: border-box;
     
@@ -299,7 +302,7 @@ background-size: cover;
     max-width: 100%;
     padding: 50px;
     text-align: left;
-    display: fixed;
+    display: table;
     margin-bottom: 10px;   
 }
 
@@ -425,7 +428,7 @@ footer > p {
     max-width: 100%;
     right: 0px;
     top: 480px;
-    display: hidden;
+    display: none;
    }
 }
 

@@ -1,7 +1,7 @@
 # **Gemma Ellis Yoga**
 ![Gemma Ellis](assets/css/images/responsive-image.png)
 
-View the live project [here]()
+View the live project [here](https://gemmaellis16.github.io/yoga-project/)
 
 ## **Project Aim**
 
@@ -121,11 +121,11 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ### * **Wireframes**
 
-* Desktop wireframe - [view](wireframes/yoga-desktop.bmpr)
+* Desktop wireframe - [view](wireframes/yoga-desktop.bmpr)[here](https://github.com/gemmaellis16/yoga-project/blob/main/wireframes/yoga-desktop.bmpr)
 
-* Tablet wireframe - [view](wireframes/yoga-tablet.bmpr)
+* Tablet wireframe - [view](wireframes/yoga-tablet.bmpr)[here](https://github.com/gemmaellis16/yoga-project/blob/main/wireframes/yoga-tablet.bmpr)
 
-* Mobile wireframe - [view](wireframes/yoga-mobile.bmpr)
+* Mobile wireframe - [view](wireframes/yoga-mobile.bmpr)[here](https://github.com/gemmaellis16/yoga-project/blob/main/wireframes/yoga-mobile.bmpr)
 
 [Back to top](#table-of-contents)
 
@@ -387,42 +387,36 @@ The form worked but without feedback it is not user friendly.
 
 #### * **Git hub pages**
 
-The project was deployed to Github pages using the following steps
+The project was deployed to Github pages using the following steps:
 
     1. Log in to [GitHub](https://github.com/) and locate the GitHub Repository.
-    * At the top of the Repository (not top of page), locate the "Settings" button on the menu.
+    * At the top of the Repository, locate the "Settings" button on the menu.
     * Scroll down to the settings page and locate the "GitHub Pages" section.
     * Under the "Source" button, click the dropdown "None" and choose "Master Branch".
-    * The page will refresh.
-    * Scroll back down through the page to locate the now published site [link](https://github.com/) in the "GitHub Pages" section.
+    * Scroll back down to locate the published site [link](https://github.com/) in the "GitHub Pages" section.
 
 [Back to top](#table-of-contents)
 
 #### * **Forking Github Repository**
 
-By forking the GitHub Repository we make a copy of the original document on our account so that we can view or make changes without it affecting the original repository. To do this we are required to:
+Forking means to make a copy of the original document so that you can view/edit without it altering the original repository. It can be forked using the following steps:
 
     1 Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    1 At the top of the Repository (not top of page) just above the "Settings" button on the menu, press the "Fork" button.
-    1 Then you will have a copy of the original repository in your GitHub account.
+    1 At the top of the Repository just above the "Settings" button, press the "Fork" button.
+    1 Resulting in a copy of the original repository in your GitHub account.
 
 
 #### * **Making a Clone**
+
+Cloning means creating a local copy of the remote repository. This allows you to make edits locally rather than directly in the source files. It can be cloned using the following steps:
 
     1. Log in to GitHub and find the [GitHub Repository](https://github.com/)
     1. Under the repository name, click "Clone or download".
     1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
     1. Open Git Bash
-    1. Change the working directory to the place where you want the clone to be made to.
+    1. Change the working directory to the area where you want the clone to be made to.
     1. Type git clone, and then paste the URL you copied in Step 3.
 
-    $ git clone https://github.com/gemmaellis16/yoga-project
-
-    1. Press Enter. Your local clone will be created.
-
-    $ git clone https://github.com/gemmaellis16/yoga-project
-
-Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository#cloning-a-repository-to-github-desktop) for more information.
 
 [Back to top](#table-of-contents)
 
@@ -461,14 +455,16 @@ Click [Here] (https://docs.github.com/en/github/creating-cloning-and-archiving-r
 
 ### **Media** 
 
-* All gallery images created by the developer - they are photos from a yoga studio I attended as part of my yoga teacher training in Spain. So the studio does not exist in North Wales (like I have stated but merely a fictional studio in Betws y Coed).
+* All gallery images created by the developer - they are photos from a yoga studio I attended as part of my yoga teacher training in Spain. So the studio does not exist in North Wales (like I have stated but merely a fictional studio in Betws y Coed). The testimonial images have also been created by me. 
+
 * But as noted previously the main image is sourced from [unsplash](https://unsplash.com/photos/UvWx67Ivqe0).
-* The map on the contact page was sourced from [Google](https://www.maps.ie/create-google-map/)
+* The map on the contact page was sourced from [Google](https://www.google.co.uk/maps/place/Betws-y-Coed/@53.0910704,-3.8119933,15z/data=!3m1!4b1!4m5!3m4!1s0x48651463227a6575:0x2afbefd48524751d!8m2!3d53.0930858!4d-3.8010354?hl=en)
 
 
 ### **Aknowledgments** 
 
 * Tutors at Code Institute for their support especially Sean and Igor they really helped when I was feeling that I was unable to grasp all the styling issues.
+
 
 [Back to top](#table-of-contents)
 
