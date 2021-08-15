@@ -166,9 +166,9 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 The W3C Markup Validator and W3C CSS Validator were used to validate every page of the project to ensure there were no errors in the code. 
 
-* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results]()
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Index](validator/index.pdf) [About](validator/about.pdf) [Classes](validator/classes.pdf) [Gallery](validator/gallery.pdf) [Contact](validator/contact.pdf)
 
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results]()
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](validator/css.pdf)
 
 #### **Testing User Stories from User Experience**
 
