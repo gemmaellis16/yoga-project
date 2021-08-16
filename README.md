@@ -115,7 +115,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 #### * **Imagery**
 
-* The large yoga image on the homepage is designed to be calming and dreamy to give the users the sense that when they attend the studio they will feel relaxed and ultimately want to browse the website further to book a class.
+* The large yoga image on the homepage is designed to be calming to give the users the sense that when they attend the studio they will feel relaxed and ultimately want to browse the website further to book a class.
 
 [Back to top](#table-of-contents)
 
@@ -172,43 +172,47 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
 #### **Testing User Stories from User Experience**
 
-* First Time Visitor Goals
+* **First Time Visitor Goals**
 
 1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the studio.
 
-    - When entering the site users will see a readible navigation bar to get to the page of their choice. Even when they are on a specific page they can press the 'Gemma Ellis Yoga' logo to return to the main page.
+    - When entering the site users will see a readible [navigation bar](screenshots/navigation.png) to get to the page of their choice. Even when they are on a specific page they can press the 'Gemma Ellis Yoga' logo to return to the main page.
 
-    - On the contact us page after a form response is submitted, the page refreshes and the information dissappears (could link to an actual email account with a Thank you message).
+    - On the contact us page you must input your details or the form will ask for it and you will be unable to submit the [form.](screenshots/form-input.png)
 
-    - On the about page I want to clearly locate the 'New student registration form' to fill it out and bring with me to the first session. 
+    - On the about page I want to clearly locate the [New student registration form](screenshots/student-reg.png) to fill it out and bring with me to the first session. 
 
 1. As a first time visitor, I am curious to know more about the owner/studio
 
-    - On the homepage users can scroll down and see student testimonials and be clear that the studio is a friendly environment with a good teacher.
+    - On the homepage users can scroll down and see student [testimonials](screenshots/testimonials.png) and be clear that the studio is a friendly environment with a good teacher.
 
     - Clearly labelled 'About' page on navigation bar.
 
-    - The 'About' page contains a photo of the teacher and short paragraph about her experience.  
+    - The [About](screenshots/about.png) page contains a photo of the teacher and short paragraph about her experience.  
 
-1. As a first time visitor, I want to view the studio and student/teachers gallery to view the environment so I can decide if it's the class I'd like to participate in. 
+1. As a first time visitor, I want to view the studio and student/teachers [gallery](screenshots/gallery.png) to view the environment so I can decide if it's the class I'd like to participate in. 
 
     - In the navigation bar there is a clearly labelled 'Gallery' page with images of inside the studio, with students and outside of the studio. 
 
-* Returning Visitor Goals
+1. As a first time visitor, I want to know what yoga is and what are it's [benefits](screenshots/benfits.png).
 
-1. As a returning visitor, I want to find the best way to get into contact with the studio with any questions I may have. 
+* **Returning Visitor Goals**
+
+1. As a returning visitor, I want to find the best way to get into [contact](screenshots/contact.png) with the studio with any questions I may have. 
 
     - The navigation bar clearly highlights the 'Contact page'.
 
     - Here, they can fill out the form on the page (but I have not linked it to anything as this out of the scope of the MS1 project).
 
-    - There is also the direct phone number or email of the studio (fictional).
+    - There is also the direct [phone number or email](screenshots/location.png) of the studio (fictional).
 
-    - The footer contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
+    - The [footer](screenshots/footer.png) contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
 
-1. As a returning visitor, I want to find out the membership options
+1. As a returning visitor, I want to find out the [membership](screenshots/prices.png) options
 
-    - In the classes page 'prices' are clearly labelled for the visitor to view.
+    - In the classes page [prices](screenshots/prices.png) are clearly labelled for the visitor to view.
+
+1. As a returning visitor, I want to find out what days and times the [yoga](screenshots/timetable.png) sessions are on.
 
 [Back to top](#table-of-contents)
 
