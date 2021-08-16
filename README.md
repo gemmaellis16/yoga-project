@@ -354,7 +354,7 @@ The audio opened up when the Download button was clicked and appeared on screen.
 * Verdict
 The audio works as planned.
 
-### [Contact Form](screenshots/form-image)
+### [Contact Form](screenshots/form-input.png)
 
 * Idea
 I want to include a contact form so that the user can contact the studio/teacher with any queries they have (even to book through this too). On the form they can enter their name, email address and write a message. I also ensured they had to fill in the fields before submitting the button. 
@@ -377,13 +377,17 @@ The form worked but without feedback it is not user friendly.
 
 ### **Known Bugs**
 
-* On some mobile devices......
-* On some internet browsers .......
 
+* I had many issues on the mobile display trying to get the hamburger icon to sit on the right in the [navbar](screenshots/mobile-issue.png)so with lots of styling and support from the tutors I was able to successfully sort this.
+
+* On the laptop view I also had issues with making my text in the [navbar](screenshots/laptop-issue.png) sit to the right with correct spacing and again with direction from the tutors and correcting the styling I was able to overcome the issue.
+
+* I also had issues with my [map](screenshots/map.png) - after the validator not liking my iframe in the html I decided to change the map, which gave me styling issues so it took me quite a long time to [center](screenshots/map-center.png) the image and appear correctly on the page
 
 ### **Note about Commits**
 
 * IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover some of my work and create a new workspace.
+
 
 [Back to top](#table-of-contents)
 
