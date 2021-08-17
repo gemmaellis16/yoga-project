@@ -191,7 +191,10 @@ background-size: cover;
     top: 20px;
 }
 
-
+.media {
+    height: 200; 
+    width: 200;
+}
 
 /* sign-up form from love running project*/
 

@@ -53,14 +53,14 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ### **User Goals**
 
-1. The website should have valuable information on yoga and the studio.
-1. The website should be easy to use on mobile, tablet and desktop.
-1. It should be visually appealing with images and colours.
-1. It should have an about page detailing yoga etiquette and the yoga teachers.
-1. The website should have testimonials about the teacher and studio.
-1. It should have contact details that are easy to navigate. 
-1. It should have booking option on the main page to capture the users attention.
-1. It should have a form to contact the studio directly.
+* The website should have valuable information on yoga and the studio.
+* The website should be easy to use on mobile, tablet and desktop.
+* It should be visually appealing with images and colours.
+* It should have an about page detailing yoga etiquette and the yoga teachers.
+* The website should have testimonials about the teacher and studio.
+* It should have contact details that are easy to navigate. 
+* It should have booking option on the main page to capture the users attention.
+* It should have a form to contact the studio directly.
 
 ### **Owner Goals**
 
@@ -71,32 +71,32 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ### **User Stories**
 
-  * First Time Visitor Goals
+####  * First Time Visitor Goals
 
- 1. As a first time visitor, I want to understand the main purpose of the site and learn about the yoga studio.
+ 1. As a user, I want to understand the main purpose of the site and learn about the yoga studio.
 
- 1. As a first time visitor, I want to be able to navigate throughout the site to find content.
+ 1. As a user, I want to be able to navigate throughout the site to find content.
 
- 1. As a first time visitor, I want to look at testimonials to understand what yoga students think of the studio and teacher and see if they are trusted and also want to locate their social media accounts for more information (this will just be the main social media accounts for privacy reasons).
+ 1. As a user, I want to look at testimonials to understand what yoga students think of the studio and teacher. 
 
- 1. As a first time visitor, I want to know what yoga is and it's benefits.
+ 1. As a user, I want to know what yoga is and it's benefits.
 
- 1. As a first time visitor, I want to know the location of the studio.
+ 1. As a user, I want to know the location of the studio.
 
- 1. As a first time visitor, I want to know the price of the class.
+ 1. As a user, I want to know the price of the class.
 
- * Returning Visitor Goals
+ #### * Returning Visitor Goals
 
- 1. As a returning visitor, I want to find the best way to get in contact with the studio with questions that I may have.
+ 1. As a user, I want to find the best way to get in contact with the studio with questions that I may have.
 
- 1. As a returning visitor, I want to know the membership options.
+ 1. As a user, I want to know the membership options.
 
- 1. As a returning visitor, I want to look at the timetable for classes.
+ 1. As a user, I want to look at the timetable for classes.
  
 
- * Frequent Visitor Goals
+#### * Frequent Visitor Goals
 
- 1. As a frequent visitor, I want to check the timetable for updated times, days and classes.
+ 1. As a user, I want to check the timetable for updated times, days and classes.
 
 
 [Back to top](#table-of-contents)
@@ -397,11 +397,12 @@ The form worked but without feedback it is not user friendly.
 
 The project was deployed to Github pages using the following steps:
 
-    1. Log in to [GitHub](https://github.com/) and locate the GitHub Repository.
-    * At the top of the Repository, locate the "Settings" button on the menu.
-    * Scroll down to the settings page and locate the "GitHub Pages" section.
-    * Under the "Source" button, click the dropdown "None" and choose "Master Branch".
-    * Scroll back down to locate the published site [link](https://github.com/) in the "GitHub Pages" section.
+    * Log into [GitHub](https://github.com/) and locate the GitHub Repository (gemmaellis16
+/yoga-project).
+    * In the navbar on the top right hand side press the "Settings" button.
+    * Locate [Pages](screenshots/gitpod-pages) on the left hand side of the page.
+    * Click "None on the source section and choose "Master Branch" on the source field and then choose "docs".
+    * Then deploy the page - you will have to wait 10 minutes for the page to deploy or when the blue writing turns green.
 
 [Back to top](#table-of-contents)
 
@@ -409,21 +410,23 @@ The project was deployed to Github pages using the following steps:
 
 Forking means to make a copy of the original document so that you can view/edit without it altering the original repository. It can be forked using the following steps:
 
-    1 Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-    1 At the top of the Repository just above the "Settings" button, press the "Fork" button.
-    1 Resulting in a copy of the original repository in your GitHub account.
+    * Log into Github and locate the [Github Repository](https://github.com)
+    * Enter gemmaellis16/yoga-project.
+    * At the top right of the navbar (above the profile icon), press the "Fork" button.
+    * This will enable you to get a copy of the original repository in your Github account.
 
 
 #### * **Making a Clone**
 
 Cloning means creating a local copy of the remote repository. This allows you to make edits locally rather than directly in the source files. It can be cloned using the following steps:
 
-    1. Log in to GitHub and find the [GitHub Repository](https://github.com/)
-    1. Under the repository name, click "Clone or download".
-    1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-    1. Open Git Bash
-    1. Change the working directory to the area where you want the clone to be made to.
-    1. Type git clone, and then paste the URL you copied in Step 3.
+    * Log into Github and find the [GitHub Repository](https://github.com/)
+    * Locate the "Code" button and click "Clone or download".
+    * To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    * Open a terminal.
+    * Change the working directory to the area where you want the clone to be made to.
+    * Type git clone, and then paste the URL you copied before.
+    * Press enter and create your local clone.
 
 
 [Back to top](#table-of-contents)
@@ -432,9 +435,9 @@ Cloning means creating a local copy of the remote repository. This allows you to
 
 ### **Code**
 
-* The full screen image came from [unsplash](https://unsplash.com/photos/UvWx67Ivqe00 
+* The full screen image came from [unsplash](https://unsplash.com/photos/UvWx67Ivqe00)
 
-* [Bootstrap v4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
+* [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
 * The testimonials idea was taken from the quotes section in the[Whiskey project](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/)
 
@@ -471,7 +474,8 @@ Cloning means creating a local copy of the remote repository. This allows you to
 
 ### **Aknowledgments** 
 
-* Tutors at Code Institute for their support especially Sean and Igor they really helped when I was feeling that I was unable to grasp all the styling issues.
+* Tutors at Code Institute for their support, they really helped when I was feeling that I was unable to grasp all the styling issues.
+* My new mentor for advice on the project.
 
 
 [Back to top](#table-of-contents)
