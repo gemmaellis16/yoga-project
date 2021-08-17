@@ -104,14 +104,14 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 ### **Design**
 
 #### * **Colour Scheme**
-
+[Colour Scheme](assets/css/images/colour-scheme.png)
  * The main colour is a pink/peach colour (rgba(235, 131, 46, 0.548)) for the background, footer is rgba(236, 151, 93, 0.6), tables and text boxes are rgba(245, 94, 24, 0.582).
  The idea is that the colours compliment the main image on the homepage to give the user a feeling of warmth and a relaxed feel typically like you would feel in a yoga class.
     
 
 #### * **Typography**
 
-* The Roboto font is the main font used throughout the website with Exo as the fallback font in case the font isn't imported correctly to the site. The Roboto font is used frequently in programming.
+* The [Roboto](https://fonts.google.com/specimen/Roboto?selection.family=PT+Serif|Roboto:700&query=Rob) font is the main font used throughout the website with Exo as the fallback font in case the font isn't imported correctly to the site. The Roboto font is used frequently in programming.
 
 #### * **Imagery**
 
@@ -139,7 +139,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ### **Framework, Libraries & Programmes Used** 
 
-1. [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+1. [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     * Bootstrap was used to assist with resposiveness and styling of the website
 
 1. [Hover.CSS](https://ianlunn.github.io/Hover/)
