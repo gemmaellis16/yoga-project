@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
 header {
     margin: 0;
     padding: 0;
@@ -9,11 +15,13 @@ header {
 
 body {
     font-family: 'Roboto';
+    font-size: 1.6rem;
     color: #777;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
+    
 }
 
 main {
@@ -26,18 +34,19 @@ h2 {
     letter-spacing: 4px;
     color: #555;
     
+    
 }
 /* Navbar parts aare from Love Running*/
 
 #logo {
     float: left;
-    font-size: 350px;
+    font-size: 2rem;
     padding-left: 20px;
     margin-top: 10px;
 }
 
 #menu {
-    font-size: 100%;
+    font-size: 1.6rem;
     list-style-type: none;
     letter-spacing: 4px;
     justify-content: flex-end;
@@ -65,8 +74,6 @@ h2 {
 .active{
     border-bottom: 1px solid #777;
 }
-
-/* Navbar parts are from the whiskey project*/
 
 /* Navbar parts are from the whiskey project*/
 
@@ -111,6 +118,11 @@ h2 {
     font-weight: bold;
 }
 
+.row {
+    margin: 0;
+    padding: 10px;
+}
+
 /* Image, gallery and cover-text styling is from the Love Running project*/
 
 #yoga-image {
@@ -142,8 +154,8 @@ background-size: cover;
     color: #ffffff;
 }
 
-#cover-text {
-    font-size: 100%;
+    #cover-text {
+    font-size: 1.6rem;
     font-family: 'Robo';
     letter-spacing: 6px;
     max-width: 40%;
@@ -154,23 +166,23 @@ background-size: cover;
     bottom: 100px;
     position: absolute;
     right: 50px;
-    
 }
 
-#cover-text-one {
-    font-size: 100%;
-    font-family: 'Robo';
-    letter-spacing: 3px;
-    max-width: 30%;
-    height: 300px;
-    padding-top: 30px;
-    padding-left: 10px;
-    background-color: rgba(245, 94, 24, 0.582);
-    top: 250px;
-    left: 50px;
-    position: absolute;
+    #cover-text-one {       
+        font-size: 1.6rem;
+        font-family: 'Robo';
+        letter-spacing: 3px;
+        max-width: 30%;
+        height: 300px;
+        padding-top: 30px;
+        padding-left: 10px;
+        top: 250px;
+        left: 50px;
+        position: absolute;
+        background-color: rgba(245, 94, 24, 0.582);
+    }
 
-}
+
 #hero-image-one {
     margin-top: 20px;
 }
@@ -189,13 +201,23 @@ background-size: cover;
     padding-left: 10px;
     position: relative;
     top: 20px;
+    
 }
 
-.media {
-    height: 200; 
-    width: 200;
+/* testimonials are from the Love Running*/
+
+.blockquote {
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+h2.text-uppercase {
+    margin-top: 10px;
 }
 
+.rounded-circle {
+    height: 100px;
+    width: auto;
+}
 /* sign-up form from love running project*/
 
 .signup-form {
@@ -221,7 +243,7 @@ background-size: cover;
     background: transparent;
     color: #555;
     width: 100%;
-    height: 50px;
+    height: 3rem;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa; 
     border-radius: 2px;
@@ -232,7 +254,7 @@ background-size: cover;
     background: transparent;
     color: #fafafa;
     width: 100%;
-    height: 25px;
+    height: 1.5rem;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa; 
     border-radius: 2px;
@@ -252,7 +274,7 @@ background-size: cover;
     margin-bottom: 20px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    font-size: 100%;
+    font-size: 1.6rem;
     background-color: rgba(236, 151, 93, 0.6);
     color: #fafafa;
     display: block;
@@ -270,7 +292,7 @@ background-size: cover;
 
 #map-wrapper {
 
-    height: 500px;
+    min-height: 360px;
     padding: 25px 0;
     width: 100%;
     text-align: center;
@@ -281,8 +303,12 @@ background-size: cover;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50px, -50);
+    transform: translate(-50px, -50px);
 
+}
+#iframe {
+    min-height: 360px;
+    width: 600px;
 }
 
 /* timetable, prices and table box sourced from W3schools website*/
@@ -335,7 +361,7 @@ footer > a {
 	color: #555;
 	text-decoration: none;
 	padding: 0 0px;
-	font-size: 0.8rem;
+	font-size: 1.5rem;
 }
 
 footer > p {
@@ -414,53 +440,30 @@ footer > p {
     margin: 18px;
   }
 
-  @media(min-width: 992px) {
-    .signup-form {
-        padding-top: 30px;
-        min-height: 240px;
-        margin: 0 auto;
-        max-width: 50%;
-    }
-}
-
-
 @media (max-width: 576px) { 
-#cover-text {
+    #cover-text {
     height: 250px;
     max-width: 100%;
     right: 0px;
     top: 480px;
     display: inline;
    }
-}
-
-
-@media (max-width: 576px) { 
-#cover-text-one {
+    #cover-text-one {   
     height: 240px;
     max-width: 100%;
     top: 60px;
     right: 0;
     left: 0;
     
-    }
 }
 
-
-@media (max-width: 576px) {
     #gallery img {
         height: 100px;
         width: 50%;
         padding: 10px;
     
     }
-}
-@media(min-width: 992px) {
-    #gallery img {
-        height: 300px;
-    }
-}
-@media (max-width: 576px) {
+
     #yoga-image {
         background-position: 50% 15%;
         background-size: cover;
@@ -476,12 +479,24 @@ footer > p {
       }
 }
 
-@media screen and (min-width: 943px){
-.column-one {
+@media(min-width: 992px) {
+    #gallery img {
+        height: 300px;
+    }
 
-    max-width: 50%;
-    text-align: center;
-    max-width: 100%;
-    
-}
+    .column-one {
+
+        max-width: 50%;
+        text-align: center;
+        max-width: 100%;
+        
+    }
+
+    .signup-form {
+            padding-top: 30px;
+            min-height: 240px;
+            margin: 0 auto;
+            max-width: 50%;
+        
+    }
 }
