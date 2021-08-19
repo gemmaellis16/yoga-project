@@ -108,7 +108,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 ![Colour Scheme](screenshots/colour-scheme.png)
 
- * The main colour is a pink/peach colour (rgba(235, 131, 46, 0.548)) for the background, footer is rgba(236, 151, 93, 0.6), tables and text boxes are rgba(245, 94, 24, 0.582).
+ * The main colour is a orange/peach/pink colour (rgba(235, 131, 46, 0.548)) for the background, footer is rgba(236, 151, 93, 0.6), tables and text boxes are rgba(245, 94, 24, 0.582).
  The idea is that the colours compliment the main image on the homepage to give the user a feeling of warmth and a relaxed feel typically like you would feel in a yoga class.
     
 
@@ -118,7 +118,7 @@ Welcome to Gemma Ellis Yoga website. This yoga studio is located in the heart of
 
 #### * **Imagery**
 
-* The large yoga image on the homepage is designed to be calming to give the users the sense that when they attend the studio they will feel relaxed and ultimately want to browse the website further to book a class.
+* The large yoga [image](https://unsplash.com/photos/UvWx67Ivqe0) on the homepage is designed to be calming to give the users the sense that when they attend the studio they will feel relaxed and ultimately want to browse the website further to book a class.
 
 [Back to top](#table-of-contents)
 
@@ -192,6 +192,8 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
     - Clearly labelled 'About' page on navigation bar.
 
     - The [About](screenshots/about.png) page contains a photo of the teacher and short paragraph about her experience.  
+
+    - There is an example relaxation audio for users to listen and decide if it's something they would like to experience.
 
 * As a user, I want to view the studio and student/teachers [gallery](screenshots/gallery.png) to view the environment so I can decide if it's the class I'd like to participate in. 
 
