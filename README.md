@@ -326,7 +326,7 @@ The modal opened up when the Book now button was clicked and appeared on screen.
 * **Verdict**
 The modal works as planned.
 
-### [Audio](audio/realxation.m4a)
+### [Audio](audio/relaxation.m4a)
 
 * **Idea**
 I wanted to use audio as a taster for users of what to expect when in the relaxation during a class. This would allow the user to determine if they would like to hear more by coming to a session.  
@@ -441,7 +441,7 @@ Cloning means creating a local copy of the remote repository. This allows you to
 
 ### **Code**
 
-* The full screen image came from [unsplash](https://unsplash.com/photos/UvWx67Ivqe00)
+* The full screen image came from [unsplash](https://unsplash.com/photos/UvWx67Ivqe0)
 
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap library used throughout the project to make the site responsive to the Bootstrap grid system.
 
