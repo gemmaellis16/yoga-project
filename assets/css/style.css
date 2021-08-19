@@ -489,11 +489,15 @@ footer > p {
         background: #222;
         z-index: 100;
       }
+
+      #iframe {
+        width: 300px;
+    }
 }
 
 @media(min-width: 992px) {
     #gallery img {
-        height: 300px;
+        height: 400px;
     }
 
     .column-one {
