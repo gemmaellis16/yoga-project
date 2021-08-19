@@ -390,6 +390,8 @@ The form worked but without feedback it is not user friendly.
 
 * I also had issues with my [map](screenshots/map.png) - after the validator not liking my iframe in the html I decided to change the map, which gave me styling issues so it took me quite a long time to [center](screenshots/map-center.png) the image, and correct the height as I was confusing between the map-wrapper, map and iframe in the css. As a result I targeted the iframe with an id and then used min-height: 360px; and width: 600px.
 
+* When looking at my live wesbite, dev tools has an error come up on each [page](screenshots/devtools.png). I have found the explanation on [Github](https://github.community/t/i-have-no-idea-what-the-interest-cohort-is/179780/2) which explains it's to ensure the privacy of our users when browsing GitHub Pages sites. So due to this I have left the page as it is.  
+
 ### **Note about Commits**
 
 * IMPORTANT - Previous commits have been wiped due to problems with Gitpod on 29/7/21, fortunately I was able to recover some of my work and create a new workspace.
