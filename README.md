@@ -199,7 +199,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
     - In the navigation bar there is a clearly labelled 'Gallery' page with images of inside the studio, with students and outside of the studio. 
 
-* As a user, I want to know what yoga is and what are it's [benefits](screenshots/benfits.png).
+* As a user, I want to know what yoga is and what are it's [benefits](screenshots/benefits.png).
 
 * **Returning Visitor Goals**
 
@@ -209,7 +209,7 @@ The W3C Markup Validator and W3C CSS Validator were used to validate every page 
 
     - Here, they can fill out the form on the page (but I have not linked it to anything as this out of the scope of the MS1 project).
 
-    - There is also the direct [phone number or email](screenshots/location.png) of the studio (fictional).
+    - There is also the direct [phone number or email](screenshots/email.png) of the studio (fictional).
 
     - The [footer](screenshots/footer.png) contains links to Facebook, Twitter and Instagram (to the main pages of the social media homepages and not to the teachers own account due to privacy purposes).
 
@@ -239,7 +239,7 @@ The main [image](assets/css/images/yoga-main.jpg) is of a yoga pose on the beach
 
 #### **Cover Text**
 
-The main idea to put [cover text](screenshots/cover-text) over the image was to grab the user attention immediately - one box is to get them to book a session straight away or to have that in thier minds immediately and the second box is to explain the definition of yoga so that a beginner understands the purpose.
+The main idea to put [cover text](screenshots/cover-text) over the image was to grab the users attention immediately - one box is to get them to book a session straight away or to have that in their minds immediately and the second box is to explain the definition of yoga so that a beginner understands the purpose.
 
 #### **Benefits**
 
@@ -255,11 +255,11 @@ I used an example layout from W3 website to create the [about](screenshots/about
 
 I added an [information/etiquette/tips](screenshots/info.png) section because as a new student to yoga they may feel uncomfortable entering a studio without any prior knowledeg of what to bring and of what to expect ect so this may help those that are unconfident accessing the studio alone. 
 
-In addition I added two downloadable links on this page, one of a sample relaxation script which had [audio](screenshots/audio.png) and the second of a student registration [form](screenshots/student-form.png) that would be required upon visiting the studio for the first time. Again I added fontawesome icons to the headers to be more appealing.
+In addition I added two downloadable links on this page, one of a sample relaxation script which had [audio](screenshots/audio-image.png) and the second of a student registration [form](screenshots/student-form.png) that would be required upon visiting the studio for the first time. Again I added fontawesome icons to the headers to be more appealing.
 
 #### **Gallery**
 
-I wanted three columns and three rows of images in the [gallery](screenshots/gallery-mobile)so it would be appealing to the eye on desktop view and then down to two columns in mobile view so that images didn't appear stretched or pixlated. I did originally put in the wireframes that I wanted one column in the mobile view but this wouldn't appear balanced in my opinion. So there are 12 images which appear balanced in the gallery(balance is at the heart of yoga so I wanted the website to appear balanced as much as possible throughout).
+I wanted three columns and three rows of images in the [gallery](screenshots/gallery-mobile.png) so it would be appealing to the eye on desktop view and then down to two columns in mobile view so that images didn't appear stretched or pixlated. I did originally put in the wireframes that I wanted one column in the mobile view but this wouldn't appear balanced in my opinion. So there are 12 images which appear balanced in the gallery(balance is at the heart of yoga so I wanted the website to appear balanced as much as possible throughout).
 
 #### **Classes**
 
@@ -278,6 +278,7 @@ At the top of the page I placed the [form](screenshots/form-input.png) so that i
 * Interactive map for the location with a link to google maps.
 * Include information on how their data will be used (GDPR-Law).
 * Yoga videos for those that can not attend class.  
+* One scrollable page with all the information on one page to make it user friendly.
 
 
 ### * **Further Testing**
